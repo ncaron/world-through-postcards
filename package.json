@@ -1,0 +1,25 @@
+{
+  "name": "world-through-postcards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncaron/world-through-postcards.git"
+  },
+  "author": "Niko Caron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncaron/world-through-postcards/issues"
+  },
+  "homepage": "https://github.com/ncaron/world-through-postcards#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-open": "^2.0.0"
+  }
+}
