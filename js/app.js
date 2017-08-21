@@ -15,11 +15,9 @@ var App = {
     return countryTemplate;
   },
   buildHomePage: function() {
-    if (!this.mainContent) {
-      this.keys.forEach(function(country) {
-        this.mainContent += this.replaceCountryHTML(this.countryTemplate, country);
-      }.bind(this));
-    }
+    this.keys.forEach(function(country) {
+      this.mainContent += this.replaceCountryHTML(this.countryTemplate, country);
+    }.bind(this));
   },
   renderCountries: function() {
     this.content.innerHTML = this.mainContent;
