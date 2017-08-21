@@ -58,6 +58,17 @@ var data = {
     ],
   },
 
+  england: {
+    name: 'England',
+    code: 'gb-eng',
+    cards: [
+      {
+        front: './assets/cards/front/front015.jpg',
+        back: './assets/cards/back/back015.jpg',
+      },
+    ],
+  },
+
   estonia: {
     name: 'Estonia',
     code: 'ee',
@@ -172,17 +183,6 @@ var data = {
       {
         front: './assets/cards/front/front010.jpg',
         back: './assets/cards/back/back010.jpg',
-      },
-    ],
-  },
-
-  unitedKingdom: {
-    name: 'United Kingdom',
-    code: 'gb',
-    cards: [
-      {
-        front: './assets/cards/front/front015.jpg',
-        back: './assets/cards/back/back015.jpg',
       },
     ],
   },
