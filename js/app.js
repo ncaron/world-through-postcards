@@ -1,6 +1,7 @@
 var App = {
   data: data,
   keys: Object.keys(this.data),
+  mainContent: '',
   cacheElements: function() {
     this.content = document.getElementById('content');
   },
@@ -13,18 +14,21 @@ var App = {
 
     return countryTemplate;
   },
-  handleCountryRendering: function(country) {
-    var countryTemplate = this.replaceCountryHTML(this.countryTemplate, country);
-
-    this.render(this.replaceCountryHTML(this.countryTemplate, country));
+  buildHomePage: function() {
+    if (!this.mainContent) {
+      this.keys.forEach(function(country) {
+        this.mainContent += this.replaceCountryHTML(this.countryTemplate, country);
+      }.bind(this));
+    }
   },
-  render: function(countryTemplate) {
-    this.content.innerHTML += countryTemplate;
+  renderCountries: function() {
+    this.content.innerHTML = this.mainContent;
   },
   init: function() {
     this.cacheElements();
     this.cacheTemplates();
-    this.keys.forEach(this.handleCountryRendering.bind(this));
+    this.buildHomePage();
+    this.renderCountries();
   }
 };
 
