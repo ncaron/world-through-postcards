@@ -1,0 +1,89 @@
+@import url("./reset.css");
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 10px;
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a.active {
+  font-weight: bold;
+  background: #eee;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+header h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  float: left;
+  width: 200px;
+}
+
+header nav {
+  margin-left: 200px;
+  border-left: 1px solid black;
+}
+
+header nav a {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+}
+
+header nav a + a {
+  margin-bottom: 15px;
+  border-top: 1px solid black;
+}
+
+.country {
+  display: inline-block;
+  float: left;
+  width: 47%;
+  margin: 10px 0;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.country:nth-child(2n) { float: right; }
+
+.country p {
+  padding: 5px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #ddd;
+}
+
+.flag {
+  width: 100%;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+
+footer {
+  margin-top: 15px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+footer p { padding: 10px 0; }
+footer span { color: red; }
+footer a { text-decoration: underline; }

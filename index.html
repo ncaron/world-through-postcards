@@ -2,11 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>World Through Postcards</title>
     <link rel="stylesheet" href="assets/flag-icon/css/flag-icon.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <header class="clearfix">
+      <h1><a href="#">World Through Postcards</a></h1>
+
+      <nav>
+        <a class="active" href="#">Home</a>
+        <a href="#">About</a>
+      </nav>
+    </header>
+
+    <main id="content" class="clearfix"></main>
+
+    <footer>
+      <p>Made with <span>&hearts;</span> by <a href="https://github.com/ncaron" target="_blank">Niko Caron</a></p>
+    </footer>
+
+    <script type="text/template" id="country-template">
+      <div class="country">
+        <p>{{COUNTRY}}</p>
+        <img class="flag" src="./assets/flag-icon/flags/4x3/{{CODE}}.svg" alt="{{COUNTRY}} flag">
+      </div>
+    </script>
+
     <script src="js/data.js"></script>
     <script src="js/app.js"></script>
   </body>
