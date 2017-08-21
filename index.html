@@ -9,11 +9,11 @@
   </head>
   <body>
     <header class="clearfix">
-      <h1><a href="#">World Through Postcards</a></h1>
+      <h1><a id="title" href="#">World Through Postcards</a></h1>
 
       <nav>
-        <a class="active" href="#">Home</a>
-        <a href="#">About</a>
+        <a id="home" class="active" href="#">Home</a>
+        <a id="about" href="#">About</a>
       </nav>
     </header>
 
@@ -24,10 +24,14 @@
     </footer>
 
     <script type="text/template" id="country-template">
-      <div class="country">
+      <div class="country" data-country="{{COUNTRY-DATA}}">
         <p>{{COUNTRY}}</p>
         <img class="flag" src="./assets/flag-icon/flags/4x3/{{CODE}}.svg" alt="{{COUNTRY}} flag">
       </div>
+    </script>
+
+    <script type="text/template" id="country-page-template">
+      <h2 class="country-header">{{COUNTRY}}</h2>
     </script>
 
     <script src="js/data.js"></script>

@@ -24,6 +24,8 @@ a.active {
   clear: both;
 }
 
+
+/* HEADER */
 header {
   margin-bottom: 20px;
   border-bottom: 1px solid black;
@@ -53,6 +55,8 @@ header nav a + a {
   border-top: 1px solid black;
 }
 
+
+/* MAIN PAGE */
 .country {
   display: inline-block;
   float: left;
@@ -78,6 +82,15 @@ header nav a + a {
   border-radius: 4px;
 }
 
+
+/* COUNTRY PAGE */
+.country-header {
+  font-size: 36px;
+  text-align: center;
+}
+
+
+/* FOOTER */
 footer {
   margin-top: 15px;
   text-align: center;
