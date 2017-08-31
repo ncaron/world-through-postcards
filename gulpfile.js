@@ -2,7 +2,6 @@ var gulp = require('gulp');
 var connect = require('gulp-connect');
 var open = require('gulp-open');
 var sass = require('gulp-sass');
-var lint = require('gulp-eslint');
 
 var config = {
   port: 9005,
@@ -11,7 +10,7 @@ var config = {
     html: './*.html',
     css: './css/*.css',
     js: './js/*.js',
-    sass: './scss/*.scss'
+    sass: './scss/*.scss',
   }
 };
 
@@ -47,17 +46,10 @@ gulp.task('js', function() {
       .pipe(connect.reload());
 });
 
-gulp.task('lint', function() {
-  return gulp.src(config.paths.js)
-             .pipe(lint())
-             .pipe(lint.format())
-             .pipe(lint.failAfterError());
-});
-
 gulp.task('watch', function() {
   gulp.watch(config.paths.html, ['html']);
   gulp.watch(config.paths.sass, ['sass']);
-  gulp.watch(config.paths.js, ['js', 'lint']);
+  gulp.watch(config.paths.js, ['js']);
 });
 
-gulp.task('default', ['html', 'sass', 'js', 'lint', 'open', 'watch']);
+gulp.task('default', ['html', 'sass', 'js', 'open', 'watch']);
