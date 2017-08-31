@@ -12,6 +12,7 @@ var App = {
   cacheTemplates: function() {
     this.countryTemplate = document.getElementById('country-template').innerHTML.trim();
     this.countryPageTemplate = document.getElementById('country-page-template').innerHTML.trim();
+    this.postcardTemplate = document.getElementById('postcard-template').innerHTML.trim();
   },
   replaceCountryHTML: function(countryTemplate, country) {
     countryTemplate = countryTemplate.replace(/{{COUNTRY-DATA}}/g, country);
@@ -47,8 +48,24 @@ var App = {
       this.countryPages[this.currentPage] = this.replaceCountryPageHTML(this.countryPageTemplate, this.currentPage);
     }
   },
+  buildPostcards: function() {
+    var postCardsHTML = '';
+
+    this.data[this.currentPage].cards.forEach(function(card) {
+      postCardsHTML += this.replacePostcardHTML(this.postcardTemplate, card);
+    }.bind(this));
+
+    return postCardsHTML;
+  },
+  replacePostcardHTML: function(postcardTemplate, card) {
+    postcardTemplate = postcardTemplate.replace(/{{FRONT}}/g, card.front);
+    postcardTemplate = postcardTemplate.replace(/{{BACK}}/g, card.back);
+
+    return postcardTemplate;
+  },
   replaceCountryPageHTML: function(countryPageTemplate, country) {
     countryPageTemplate = countryPageTemplate.replace(/{{COUNTRY}}/g, this.data[country].name);
+    countryPageTemplate = countryPageTemplate.replace(/{{POSTCARDS}}/g, this.buildPostcards());
 
     return countryPageTemplate;
   },

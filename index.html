@@ -32,6 +32,14 @@
 
     <script type="text/template" id="country-page-template">
       <h2 class="country-header">{{COUNTRY}}</h2>
+      {{POSTCARDS}}
+    </script>
+
+    <script type="text/template" id="postcard-template">
+      <div class="postcard">
+        <span><img src="{{FRONT}}" alt="postcard front"></span>
+        <span><img src="{{BACK}}" alt="postcard back"></span>
+      </div>
     </script>
 
     <script src="js/data.js"></script>

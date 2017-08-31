@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var connect = require('gulp-connect');
 var open = require('gulp-open');
+var sass = require('gulp-sass');
 var lint = require('gulp-eslint');
 
 var config = {
@@ -10,7 +11,7 @@ var config = {
     html: './*.html',
     css: './css/*.css',
     js: './js/*.js',
-    css: './css/*.css'
+    sass: './scss/*.scss'
   }
 };
 
@@ -33,9 +34,11 @@ gulp.task('html', function() {
       .pipe(connect.reload());
 });
 
-gulp.task('css', function() {
-  gulp.src(config.paths.css)
-      .pipe(connect.reload());
+gulp.task('sass', function() {
+  return gulp.src(config.paths.sass)
+             .pipe(sass().on('error', sass.logError))
+             .pipe(gulp.dest('./css'))
+             .pipe(connect.reload());
 });
 
 gulp.task('js', function() {
@@ -53,8 +56,8 @@ gulp.task('lint', function() {
 
 gulp.task('watch', function() {
   gulp.watch(config.paths.html, ['html']);
-  gulp.watch(config.paths.css, ['css']);
+  gulp.watch(config.paths.sass, ['sass']);
   gulp.watch(config.paths.js, ['js', 'lint']);
 });
 
-gulp.task('default', ['html', 'css', 'js', 'lint', 'open', 'watch']);
+gulp.task('default', ['html', 'sass', 'js', 'lint', 'open', 'watch']);
