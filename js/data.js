@@ -162,6 +162,10 @@ var data = {
         front: './assets/cards/front/front011.jpg',
         back: './assets/cards/back/back011.jpg',
       },
+      {
+        front: './assets/cards/front/front020.jpg',
+        back: './assets/cards/back/back020.jpg',
+      },
     ],
   },
 
