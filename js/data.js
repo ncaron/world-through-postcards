@@ -12,7 +12,7 @@ var data = {
         images: {
           front: './assets/cards/front/front003.jpg',
           back: './assets/cards/back/back003.jpg',
-        }
+        },
       },
     ],
   },
@@ -30,7 +30,7 @@ var data = {
         images: {
           front: './assets/cards/front/front018.jpg',
           back: './assets/cards/back/back018.jpg',
-        }
+        },
       },
     ],
   },
@@ -48,7 +48,7 @@ var data = {
         images: {
           front: './assets/cards/front/front001.jpg',
           back: './assets/cards/back/back001.jpg',
-        }
+        },
       },
     ],
   },
@@ -66,7 +66,7 @@ var data = {
         images: {
           front: './assets/cards/front/front014.jpg',
           back: './assets/cards/back/back014.jpg',
-        }
+        },
       },
     ],
   },
@@ -84,14 +84,16 @@ var data = {
         images: {
           front: './assets/cards/front/front004.jpg',
           back: './assets/cards/back/back004.jpg',
-        }
+        },
       },
       {
         number: '2',
         city: 'Zagreb',
         coord: { lat: 45.8150108, lng: 15.981918899999982 },
-        front: './assets/cards/front/front005.jpg',
-        back: './assets/cards/back/back005.jpg',
+        images: {
+          front: './assets/cards/front/front005.jpg',
+          back: './assets/cards/back/back005.jpg',
+        },
       },
     ],
   },
@@ -109,7 +111,7 @@ var data = {
         images: {
           front: './assets/cards/front/front015.jpg',
           back: './assets/cards/back/back015.jpg',
-        }
+        },
       },
     ],
   },
@@ -127,7 +129,7 @@ var data = {
         images: {
           front: './assets/cards/front/front019.jpg',
           back: './assets/cards/back/back019.jpg',
-        }
+        },
       },
     ],
   },
@@ -145,14 +147,16 @@ var data = {
         images: {
           front: './assets/cards/front/front002.jpg',
           back: './assets/cards/back/back002.jpg',
-        }
+        },
       },
       {
         number: '2',
         city: 'Helsinki',
         coord: { lat: 60.16985569999999, lng: 24.93837910000002 },
-        front: './assets/cards/front/front008.jpg',
-        back: './assets/cards/back/back008.jpg',
+        images: {
+          front: './assets/cards/front/front008.jpg',
+          back: './assets/cards/back/back008.jpg',
+        },
       },
     ],
   },
@@ -170,7 +174,7 @@ var data = {
         images: {
           front: './assets/cards/front/front016.jpg',
           back: './assets/cards/back/back016.jpg',
-        }
+        },
       },
     ],
   },
@@ -188,7 +192,7 @@ var data = {
         images: {
           front: './assets/cards/front/front017.jpg',
           back: './assets/cards/back/back017.jpg',
-        }
+        },
       },
     ],
   },
@@ -206,7 +210,7 @@ var data = {
         images: {
           front: './assets/cards/front/front013.jpg',
           back: './assets/cards/back/back013.jpg',
-        }
+        },
       },
     ],
   },
@@ -224,14 +228,16 @@ var data = {
         images: {
           front: './assets/cards/front/front007.jpg',
           back: './assets/cards/back/back007.jpg',
-        }
+        },
       },
       {
         number: '2',
         city: 'Arnhem',
         coord: { lat: 51.9851034, lng: 5.898729600000024 },
-        front: './assets/cards/front/front012.jpg',
-        back: './assets/cards/back/back012.jpg',
+        images: {
+          front: './assets/cards/front/front012.jpg',
+          back: './assets/cards/back/back012.jpg',
+        },
       },
     ],
   },
@@ -249,7 +255,7 @@ var data = {
         images: {
           front: './assets/cards/front/front009.jpg',
           back: './assets/cards/back/back009.jpg',
-        }
+        },
       },
     ],
   },
@@ -267,14 +273,16 @@ var data = {
         images: {
           front: './assets/cards/front/front011.jpg',
           back: './assets/cards/back/back011.jpg',
-        }
+        },
       },
       {
         number: '2',
         city: 'Yekaterinburg',
         coord: { lat: 56.83892609999999, lng: 60.60570250000001 },
-        front: './assets/cards/front/front020.jpg',
-        back: './assets/cards/back/back020.jpg',
+        images: {
+          front: './assets/cards/front/front020.jpg',
+          back: './assets/cards/back/back020.jpg',
+        },
       },
     ],
   },
@@ -292,7 +300,7 @@ var data = {
         images: {
           front: './assets/cards/front/front006.jpg',
           back: './assets/cards/back/back006.jpg',
-        }
+        },
       },
     ],
   },
@@ -310,7 +318,7 @@ var data = {
         images: {
           front: './assets/cards/front/front010.jpg',
           back: './assets/cards/back/back010.jpg',
-        }
+        },
       },
     ],
   },
