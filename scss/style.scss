@@ -102,12 +102,13 @@ header {
     overflow: auto;
   }
 
-  img {
-    max-width: 100%;
-  }
+  img { max-width: 100%; }
+  .card-number { font-size: 18px; }
 
-  .card-number {
-    font-size: 18px;
+  + .postcard {
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid black;
   }
 }
 

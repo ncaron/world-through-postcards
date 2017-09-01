@@ -92,14 +92,13 @@ var App = {
   },
   bindEvents: function() {
     document.addEventListener('click', function(e) {
-      e.preventDefault();
-
       var target = e.target;
       var countryClicked = this.getClickedCountry(target);
 
       if (countryClicked) {
         this.handleClickedCountry(countryClicked);
       } else if (target.id === 'home' || target.id === 'title') {
+        e.preventDefault();
         this.goBackHome(this.home);
       }
     }.bind(this));
