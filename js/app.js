@@ -8,11 +8,13 @@ var App = {
     this.content = document.getElementById('content');
     this.home = document.getElementById('home');
     this.about = document.getElementById('about');
+    this.map = document.getElementById('map');
   },
   cacheTemplates: function() {
     this.countryTemplate = document.getElementById('country-template').innerHTML.trim();
     this.countryPageTemplate = document.getElementById('country-page-template').innerHTML.trim();
     this.postcardTemplate = document.getElementById('postcard-template').innerHTML.trim();
+    this.aboutPageTemplate = document.getElementById('about-page').innerHTML.trim();
   },
   replaceCountryHTML: function(countryTemplate, country) {
     countryTemplate = countryTemplate.replace(/{{COUNTRY-DATA}}/g, country);
@@ -79,6 +81,7 @@ var App = {
   goBackHome: function(target) {
     if (this.currentPage !== 'home') {
       this.renderCountries();
+      this.removeActiveClass();
       this.addActiveClass(target);
       this.currentPage = 'home';
     }
@@ -90,6 +93,48 @@ var App = {
   addActiveClass: function(target) {
     target.classList.add('active');
   },
+  getCoordinates: function() {
+    var cities = [];
+    var coords = [];
+    var keys = Object.keys(this.data);
+    var i;
+
+    for (i = 0; i < keys.length; i += 1) {
+      this.data[keys[i]].cards.forEach(function(card) {
+        if (cities.indexOf(card.city) === -1) {
+          coords.push(card.coord);
+          cities.push(card.city);
+        }
+      });
+    }
+
+    return coords;
+  },
+  buildMap: function() {
+    var myLatLng = {lat: 36.9264582, lng: 7.752535200000011};
+    var coords = this.getCoordinates();
+    var bounds = new google.maps.LatLngBounds();
+    this.map = new google.maps.Map(document.getElementById('map'));
+
+    coords.forEach(function(coord) {
+      new google.maps.Marker({
+        position: coord,
+        map: this.map,
+      });
+
+      bounds.extend(coord);
+    }.bind(this));
+
+    this.map.fitBounds(bounds);
+  },
+  displayAbout: function(target) {
+    if (this.currentPage !== 'about') {
+      this.content.innerHTML = this.aboutPageTemplate;
+      this.removeActiveClass();
+      this.addActiveClass(target);
+      this.currentPage = 'about';
+    }
+  },
   bindEvents: function() {
     document.addEventListener('click', function(e) {
       var target = e.target;
@@ -100,6 +145,10 @@ var App = {
       } else if (target.id === 'home' || target.id === 'title') {
         e.preventDefault();
         this.goBackHome(this.home);
+      } else if (target.id === 'about') {
+        e.preventDefault();
+        this.displayAbout(this.about);
+        this.buildMap();
       }
     }.bind(this));
   },
