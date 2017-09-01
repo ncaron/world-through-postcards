@@ -9,12 +9,14 @@ var App = {
     this.home = document.getElementById('home');
     this.about = document.getElementById('about');
     this.map = document.getElementById('map');
+    this.trade = document.getElementById('trade');
   },
   cacheTemplates: function() {
     this.countryTemplate = document.getElementById('country-template').innerHTML.trim();
     this.countryPageTemplate = document.getElementById('country-page-template').innerHTML.trim();
     this.postcardTemplate = document.getElementById('postcard-template').innerHTML.trim();
     this.aboutPageTemplate = document.getElementById('about-page').innerHTML.trim();
+    this.tradePageTemplate = document.getElementById('trade-page').innerHTML.trim();
   },
   replaceCountryHTML: function(countryTemplate, country) {
     countryTemplate = countryTemplate.replace(/{{COUNTRY-DATA}}/g, country);
@@ -89,6 +91,7 @@ var App = {
   removeActiveClass: function() {
     this.home.classList.remove('active');
     this.about.classList.remove('active');
+    this.trade.classList.remove('active');
   },
   addActiveClass: function(target) {
     target.classList.add('active');
@@ -135,6 +138,12 @@ var App = {
       this.currentPage = 'about';
     }
   },
+  goToTrade: function(target) {
+    this.content.innerHTML = this.tradePageTemplate;
+    this.removeActiveClass();
+    this.addActiveClass(target);
+    this.currentPage = 'trade';
+  },
   bindEvents: function() {
     document.addEventListener('click', function(e) {
       var target = e.target;
@@ -149,6 +158,9 @@ var App = {
         e.preventDefault();
         this.displayAbout(this.about);
         this.buildMap();
+      } else if (target.id === 'trade') {
+        e.preventDefault();
+        this.goToTrade(target);
       }
     }.bind(this));
   },
