@@ -34,11 +34,12 @@ header {
     font-size: 24px;
     text-transform: uppercase;
     float: left;
-    width: 200px;
+    width: 50%;
+    word-spacing: 9999px;
   }
 
   nav {
-    margin-left: 200px;
+    margin-left: 60%;
     border-left: 1px solid black;
   }
 
@@ -47,11 +48,11 @@ header {
     width: 100%;
     line-height: 40px;
     text-align: center;
-  }
 
-  nav a + a {
-    margin-bottom: 15px;
-    border-top: 1px solid black;
+    + a {
+      margin-bottom: 15px;
+      border-top: 1px solid black;
+    }
   }
 }
 

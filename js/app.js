@@ -65,6 +65,8 @@ var App = {
   },
   replaceCountryPageHTML: function(countryPageTemplate, country) {
     countryPageTemplate = countryPageTemplate.replace(/{{COUNTRY}}/g, this.data[country].name);
+    countryPageTemplate = countryPageTemplate.replace(/{{CAPITAL}}/g, this.data[country].capital);
+    countryPageTemplate = countryPageTemplate.replace(/{{POPULATION}}/g, this.data[country].population);
     countryPageTemplate = countryPageTemplate.replace(/{{POSTCARDS}}/g, this.buildPostcards());
 
     return countryPageTemplate;

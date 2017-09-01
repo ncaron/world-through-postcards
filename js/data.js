@@ -2,6 +2,8 @@ var data = {
   algeria: {
     name: 'Algeria',
     code: 'dz',
+    capital: 'Algiers',
+    population: '40,400,000',
     cards: [
       {
         front: './assets/cards/front/front003.jpg',
@@ -13,6 +15,8 @@ var data = {
   australia: {
     name: 'Australia',
     code: 'au',
+    capital: 'Canberra',
+    population: '24,637,400',
     cards: [
       {
         front: './assets/cards/front/front018.jpg',
@@ -24,6 +28,8 @@ var data = {
   canada: {
     name: 'Canada',
     code: 'ca',
+    capital: 'Ottawa',
+    population: '934,243',
     cards: [
       {
         front: './assets/cards/front/front001.jpg',
@@ -35,6 +41,8 @@ var data = {
   china: {
     name: 'China',
     code: 'cn',
+    capital: 'Beijing',
+    population: '1,373,541,278',
     cards: [
       {
         front: './assets/cards/front/front014.jpg',
@@ -46,6 +54,8 @@ var data = {
   croatia: {
     name: 'Croatia',
     code: 'hr',
+    capital: 'Zagreb',
+    population: '4,190,700',
     cards: [
       {
         front: './assets/cards/front/front004.jpg',
@@ -61,6 +71,8 @@ var data = {
   england: {
     name: 'England',
     code: 'gb-eng',
+    capital: 'London',
+    population: '54,786,300',
     cards: [
       {
         front: './assets/cards/front/front015.jpg',
@@ -72,6 +84,8 @@ var data = {
   estonia: {
     name: 'Estonia',
     code: 'ee',
+    capital: 'Tallinn',
+    population: '1,315,635',
     cards: [
       {
         front: './assets/cards/front/front019.jpg',
@@ -83,6 +97,8 @@ var data = {
   finland: {
     name: 'Finland',
     code: 'fi',
+    capital: 'Helsinki',
+    population: '5,506,312',
     cards: [
       {
         front: './assets/cards/front/front002.jpg',
@@ -98,6 +114,8 @@ var data = {
   germany: {
     name: 'Germany',
     code: 'de',
+    capital: 'Berlin',
+    population: '82,175,700',
     cards: [
       {
         front: './assets/cards/front/front016.jpg',
@@ -109,6 +127,8 @@ var data = {
   greece: {
     name: 'Greece',
     code: 'gr',
+    capital: 'Athens',
+    population: '10,955,000',
     cards: [
       {
         front: './assets/cards/front/front017.jpg',
@@ -120,6 +140,8 @@ var data = {
   malaysia: {
     name: 'Malaysia',
     code: 'my',
+    capital: 'Kuala Lumpur',
+    population: '31,636,000',
     cards: [
       {
         front: './assets/cards/front/front013.jpg',
@@ -131,6 +153,8 @@ var data = {
   netherlands: {
     name: 'Netherlands',
     code: 'nl',
+    capital: 'Amsterdam',
+    population: '17,116,281',
     cards: [
       {
         front: './assets/cards/front/front007.jpg',
@@ -146,6 +170,8 @@ var data = {
   philippines: {
     name: 'Philippines',
     code: 'ph',
+    capital: 'Manila',
+    population: '100,981,437',
     cards: [
       {
         front: './assets/cards/front/front009.jpg',
@@ -157,6 +183,8 @@ var data = {
   russia: {
     name: 'Russia',
     code: 'ru',
+    capital: 'Moscow',
+    population: '144,463,451',
     cards: [
       {
         front: './assets/cards/front/front011.jpg',
@@ -172,6 +200,8 @@ var data = {
   taiwan: {
     name: 'Taiwan',
     code: 'tw',
+    capital: 'Taipei',
+    population: '23,550,077',
     cards: [
       {
         front: './assets/cards/front/front006.jpg',
@@ -183,6 +213,8 @@ var data = {
   turkey: {
     name: 'Turkey',
     code: 'tr',
+    capital: 'Ankara',
+    population: '79,814,871',
     cards: [
       {
         front: './assets/cards/front/front010.jpg',
