@@ -7,6 +7,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Annaba',
         front: './assets/cards/front/front003.jpg',
         back: './assets/cards/back/back003.jpg',
       },
@@ -21,6 +22,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Melbourne',
         front: './assets/cards/front/front018.jpg',
         back: './assets/cards/back/back018.jpg',
       },
@@ -35,6 +37,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Grand Falls, New Brunswick',
         front: './assets/cards/front/front001.jpg',
         back: './assets/cards/back/back001.jpg',
       },
@@ -49,6 +52,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Guangzhou',
         front: './assets/cards/front/front014.jpg',
         back: './assets/cards/back/back014.jpg',
       },
@@ -63,11 +67,13 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Zagreb',
         front: './assets/cards/front/front004.jpg',
         back: './assets/cards/back/back004.jpg',
       },
       {
         number: '2',
+        city: 'Hrvatska',
         front: './assets/cards/front/front005.jpg',
         back: './assets/cards/back/back005.jpg',
       },
@@ -82,6 +88,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Skegness',
         front: './assets/cards/front/front015.jpg',
         back: './assets/cards/back/back015.jpg',
       },
@@ -96,6 +103,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Rapla',
         front: './assets/cards/front/front019.jpg',
         back: './assets/cards/back/back019.jpg',
       },
@@ -110,11 +118,13 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Kuopio',
         front: './assets/cards/front/front002.jpg',
         back: './assets/cards/back/back002.jpg',
       },
       {
         number: '2',
+        city: 'Helsinki',
         front: './assets/cards/front/front008.jpg',
         back: './assets/cards/back/back008.jpg',
       },
@@ -129,6 +139,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Berlin',
         front: './assets/cards/front/front016.jpg',
         back: './assets/cards/back/back016.jpg',
       },
@@ -143,6 +154,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Polygyros',
         front: './assets/cards/front/front017.jpg',
         back: './assets/cards/back/back017.jpg',
       },
@@ -157,6 +169,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Kota Bharu',
         front: './assets/cards/front/front013.jpg',
         back: './assets/cards/back/back013.jpg',
       },
@@ -171,11 +184,13 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Goes',
         front: './assets/cards/front/front007.jpg',
         back: './assets/cards/back/back007.jpg',
       },
       {
         number: '2',
+        city: 'Arnhem',
         front: './assets/cards/front/front012.jpg',
         back: './assets/cards/back/back012.jpg',
       },
@@ -190,6 +205,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Valenzuela',
         front: './assets/cards/front/front009.jpg',
         back: './assets/cards/back/back009.jpg',
       },
@@ -204,11 +220,13 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Oryol',
         front: './assets/cards/front/front011.jpg',
         back: './assets/cards/back/back011.jpg',
       },
       {
         number: '2',
+        city: 'Yekaterinburg',
         front: './assets/cards/front/front020.jpg',
         back: './assets/cards/back/back020.jpg',
       },
@@ -223,6 +241,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Keelung',
         front: './assets/cards/front/front006.jpg',
         back: './assets/cards/back/back006.jpg',
       },
@@ -237,6 +256,7 @@ var data = {
     cards: [
       {
         number: '1',
+        city: 'Istanbul',
         front: './assets/cards/front/front010.jpg',
         back: './assets/cards/back/back010.jpg',
       },
