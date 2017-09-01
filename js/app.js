@@ -58,6 +58,7 @@ var App = {
     return postCardsHTML;
   },
   replacePostcardHTML: function(postcardTemplate, card) {
+    postcardTemplate = postcardTemplate.replace(/{{CARD-NUMBER}}/g, card.number);
     postcardTemplate = postcardTemplate.replace(/{{FRONT}}/g, card.front);
     postcardTemplate = postcardTemplate.replace(/{{BACK}}/g, card.back);
 

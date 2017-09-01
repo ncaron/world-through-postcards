@@ -31,14 +31,17 @@
     </script>
 
     <script type="text/template" id="country-page-template">
-      <h2 class="country-header">{{COUNTRY}}</h2>
-      <p>Capital: {{CAPITAL}}</p>
-      <p>Population: {{POPULATION}}</p>
+      <header class="country-header">
+        <h2>{{COUNTRY}}</h2>
+        <p>{{CAPITAL}}</p>
+        <p>{{POPULATION}}</p>
+      </header>
       {{POSTCARDS}}
     </script>
 
     <script type="text/template" id="postcard-template">
       <div class="postcard">
+        <p class="card-number">Card #{{CARD-NUMBER}}</p>
         <span><img src="{{FRONT}}" alt="postcard front"></span>
         <span><img src="{{BACK}}" alt="postcard back"></span>
       </div>

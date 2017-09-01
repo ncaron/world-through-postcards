@@ -65,8 +65,13 @@ header {
 
 /* COUNTRY PAGE */
 .country-header {
-  font-size: 36px;
-  text-align: center; }
+  padding-bottom: 20px;
+  text-align: center;
+  line-height: 1.2; }
+  .country-header h2 {
+    font-size: 36px; }
+  .country-header p {
+    font-size: 20px; }
 
 .postcard span {
   display: block;
@@ -75,6 +80,9 @@ header {
 
 .postcard img {
   max-width: 100%; }
+
+.postcard .card-number {
+  font-size: 18px; }
 
 /* FOOTER */
 footer {

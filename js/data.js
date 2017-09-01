@@ -6,6 +6,7 @@ var data = {
     population: '40,400,000',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front003.jpg',
         back: './assets/cards/back/back003.jpg',
       },
@@ -19,6 +20,7 @@ var data = {
     population: '24,637,400',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front018.jpg',
         back: './assets/cards/back/back018.jpg',
       },
@@ -32,6 +34,7 @@ var data = {
     population: '934,243',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front001.jpg',
         back: './assets/cards/back/back001.jpg',
       },
@@ -45,6 +48,7 @@ var data = {
     population: '1,373,541,278',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front014.jpg',
         back: './assets/cards/back/back014.jpg',
       },
@@ -58,10 +62,12 @@ var data = {
     population: '4,190,700',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front004.jpg',
         back: './assets/cards/back/back004.jpg',
       },
       {
+        number: '2',
         front: './assets/cards/front/front005.jpg',
         back: './assets/cards/back/back005.jpg',
       },
@@ -75,6 +81,7 @@ var data = {
     population: '54,786,300',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front015.jpg',
         back: './assets/cards/back/back015.jpg',
       },
@@ -88,6 +95,7 @@ var data = {
     population: '1,315,635',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front019.jpg',
         back: './assets/cards/back/back019.jpg',
       },
@@ -101,10 +109,12 @@ var data = {
     population: '5,506,312',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front002.jpg',
         back: './assets/cards/back/back002.jpg',
       },
       {
+        number: '2',
         front: './assets/cards/front/front008.jpg',
         back: './assets/cards/back/back008.jpg',
       },
@@ -118,6 +128,7 @@ var data = {
     population: '82,175,700',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front016.jpg',
         back: './assets/cards/back/back016.jpg',
       },
@@ -131,6 +142,7 @@ var data = {
     population: '10,955,000',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front017.jpg',
         back: './assets/cards/back/back017.jpg',
       },
@@ -144,6 +156,7 @@ var data = {
     population: '31,636,000',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front013.jpg',
         back: './assets/cards/back/back013.jpg',
       },
@@ -157,10 +170,12 @@ var data = {
     population: '17,116,281',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front007.jpg',
         back: './assets/cards/back/back007.jpg',
       },
       {
+        number: '2',
         front: './assets/cards/front/front012.jpg',
         back: './assets/cards/back/back012.jpg',
       },
@@ -174,6 +189,7 @@ var data = {
     population: '100,981,437',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front009.jpg',
         back: './assets/cards/back/back009.jpg',
       },
@@ -187,10 +203,12 @@ var data = {
     population: '144,463,451',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front011.jpg',
         back: './assets/cards/back/back011.jpg',
       },
       {
+        number: '2',
         front: './assets/cards/front/front020.jpg',
         back: './assets/cards/back/back020.jpg',
       },
@@ -204,6 +222,7 @@ var data = {
     population: '23,550,077',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front006.jpg',
         back: './assets/cards/back/back006.jpg',
       },
@@ -217,6 +236,7 @@ var data = {
     population: '79,814,871',
     cards: [
       {
+        number: '1',
         front: './assets/cards/front/front010.jpg',
         back: './assets/cards/back/back010.jpg',
       },
