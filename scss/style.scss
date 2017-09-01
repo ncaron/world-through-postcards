@@ -1,5 +1,12 @@
 @import url("./reset.css");
 
+$two-country: 45%;
+$two-country-margin: 100 - ($two-country * 2);
+$three-country: 30%;
+$three-country-margin: (100 - ($three-country * 3)) / 2;
+$four-country: 22%;
+$four-country-margin: (100 - ($four-country * 4)) / 3;
+
 * { box-sizing: border-box; }
 
 body {
@@ -40,18 +47,47 @@ header {
 
   nav {
     margin-left: 60%;
+    font-size: 0;
     border-left: 1px solid black;
+
+    a {
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      line-height: 40px;
+      text-align: center;
+
+      + a {
+        margin-bottom: 15px;
+        border-top: 1px solid black;
+      }
+    }
   }
 
-  nav a {
-    display: block;
-    width: 100%;
-    line-height: 40px;
-    text-align: center;
+  @media (min-width: 768px) {
+    h1 {
+      float: none;
+      width: 100%;
+      margin-bottom: 40px;
+      font-size: 36px;
+      text-align: center;
+      word-spacing: 0;
+    }
 
-    + a {
-      margin-bottom: 15px;
-      border-top: 1px solid black;
+    nav {
+      margin-left: 0;
+      border-left: none;
+
+      a {
+        display: inline-block;
+        width: 49%;
+
+        + a {
+          margin-bottom: 0;
+          border-top: none;
+          border-left: 1px solid black;
+        }
+      }
     }
   }
 }
@@ -61,20 +97,39 @@ header {
 /* MAIN PAGE */
 .country {
   display: inline-block;
-  float: left;
-  width: 47%;
-  margin: 10px 0;
+  width: $two-country;
+  margin: 10px 0 10px $two-country-margin;
   padding: 5px;
   text-align: center;
   border: 1px solid #ddd;
   border-radius: 4px;
 
-  &:nth-child(2n) { float: right; }
+  &:nth-child(2n + 1) { margin-left: 0; }
 
   p {
     padding: 5px;
     letter-spacing: 1px;
     border-bottom: 1px solid #ddd;
+  }
+
+  @media (min-width: 768px) {
+    width: $three-country;
+    margin-left: $three-country-margin;
+
+    &:nth-child(2n + 1) { margin-left: $three-country-margin; }
+    &:nth-child(3n + 1) { margin-left: 0; }
+  }
+
+  @media (min-width: 1000px) {
+    p { font-size: 20px; }
+  }
+
+  @media (min-width: 1200px) {
+    width: $four-country;
+    margin-left: $four-country-margin;
+
+    &:nth-child(2n + 1), &:nth-child(3n + 1) { margin-left: $four-country-margin; }
+    &:nth-child(4n + 1) { margin-left: 0; }
   }
 }
 
@@ -96,6 +151,9 @@ header {
 }
 
 .postcard {
+  font-size: 0;
+  .city { font-size: 16px }
+
   span {
     display: block;
     width: 100%;
@@ -109,6 +167,30 @@ header {
     padding-top: 15px;
     margin-top: 15px;
     border-top: 1px solid black;
+  }
+
+  @media (min-width: 1000px) {
+    span {
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+    }
+
+    .card-number { font-size: 20px; }
+    .city { font-size: 18px; }
+  }
+
+  @media (min-width: 1200px) {
+    .card-number { font-size: 22px; }
+    .city { font-size: 20px; }
+  }
+
+  @media (min-width: 1600px) {
+    img {
+      max-width: 90%;
+    }
+
+    span + span img { float: right; }
   }
 }
 
