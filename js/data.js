@@ -67,13 +67,13 @@ var data = {
     cards: [
       {
         number: '1',
-        city: 'Zagreb',
+        city: 'Hrvatska',
         front: './assets/cards/front/front004.jpg',
         back: './assets/cards/back/back004.jpg',
       },
       {
         number: '2',
-        city: 'Hrvatska',
+        city: 'Zagreb',
         front: './assets/cards/front/front005.jpg',
         back: './assets/cards/back/back005.jpg',
       },
