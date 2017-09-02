@@ -1,6 +1,68 @@
+class Country {
+  constructor(country) {
+    this.name = country.name;
+    this.code = country.code;
+    this.cards = country.cards;
+    this.template = App.countryTemplate;
+    this.buildCountryHTML();
+  }
+
+  buildCountryHTML() {
+    this.template = this.template.replace(/{{COUNTRY-DATA}}/g, this.name.toLowerCase());
+    this.template = this.template.replace(/{{COUNTRY}}/g, this.name);
+    this.template = this.template.replace(/{{CODE}}/g, this.code);
+  }
+}
+
+class CountryPage {
+  constructor(country) {
+    this.name = country.name;
+    this.capital = country.capital;
+    this.population = country.population;
+    this.cards = country.cards;
+    this.template = App.countryPageTemplate;
+    this.buildCountryPageHTML();
+  }
+
+  buildCountryPageHTML() {
+    this.template = this.template.replace(/{{COUNTRY}}/g, this.name);
+    this.template = this.template.replace(/{{CAPITAL}}/g, this.capital);
+    this.template = this.template.replace(/{{POPULATION}}/g, this.population);
+    this.template = this.template.replace(/{{POSTCARDS}}/g, this.buildPostcards());
+  }
+
+  buildPostcards() {
+    let postCardsHTML = '';
+
+    this.cards.forEach(function(card) {
+      postCardsHTML += new Postcard(card).template;
+    }.bind(this));
+
+    return postCardsHTML;
+  }
+}
+
+class Postcard {
+  constructor(card) {
+    this.number = card.number;
+    this.city = card.city;
+    this.front = card.images.front;
+    this.back = card.images.back;
+    this.template = App.postcardTemplate;
+    this.buildPostcardHTML();
+  }
+
+  buildPostcardHTML() {
+    this.template = this.template.replace(/{{CARD-NUMBER}}/g, this.number);
+    this.template = this.template.replace(/{{CITY}}/g, this.city);
+    this.template = this.template.replace(/{{FRONT}}/g, this.front);
+    this.template = this.template.replace(/{{BACK}}/g, this.back);
+  }
+}
+
 var App = {
   data: data,
-  keys: Object.keys(this.data),
+  keys: Object.keys(data),
   mainContent: '',
   countryPages: {},
   currentPage: 'home',
@@ -18,16 +80,9 @@ var App = {
     this.aboutPageTemplate = document.getElementById('about-page').innerHTML.trim();
     this.tradePageTemplate = document.getElementById('trade-page').innerHTML.trim();
   },
-  replaceCountryHTML: function(countryTemplate, country) {
-    countryTemplate = countryTemplate.replace(/{{COUNTRY-DATA}}/g, country);
-    countryTemplate = countryTemplate.replace(/{{COUNTRY}}/g, this.data[country].name);
-    countryTemplate = countryTemplate.replace(/{{CODE}}/g, this.data[country].code);
-
-    return countryTemplate;
-  },
   buildHomePage: function() {
     this.keys.forEach(function(country) {
-      this.mainContent += this.replaceCountryHTML(this.countryTemplate, country);
+      this.mainContent += new Country(this.data[country]).template;
     }.bind(this));
   },
   renderCountries: function() {
@@ -49,33 +104,8 @@ var App = {
   },
   buildCountryPage: function() {
     if (!this.countryPages[this.currentPage]) {
-      this.countryPages[this.currentPage] = this.replaceCountryPageHTML(this.countryPageTemplate, this.currentPage);
+      this.countryPages[this.currentPage] = new CountryPage(this.data[this.currentPage]).template;
     }
-  },
-  buildPostcards: function() {
-    var postCardsHTML = '';
-
-    this.data[this.currentPage].cards.forEach(function(card) {
-      postCardsHTML += this.replacePostcardHTML(this.postcardTemplate, card);
-    }.bind(this));
-
-    return postCardsHTML;
-  },
-  replacePostcardHTML: function(postcardTemplate, card) {
-    postcardTemplate = postcardTemplate.replace(/{{CARD-NUMBER}}/g, card.number);
-    postcardTemplate = postcardTemplate.replace(/{{CITY}}/g, card.city);
-    postcardTemplate = postcardTemplate.replace(/{{FRONT}}/g, card.images.front);
-    postcardTemplate = postcardTemplate.replace(/{{BACK}}/g, card.images.back);
-
-    return postcardTemplate;
-  },
-  replaceCountryPageHTML: function(countryPageTemplate, country) {
-    countryPageTemplate = countryPageTemplate.replace(/{{COUNTRY}}/g, this.data[country].name);
-    countryPageTemplate = countryPageTemplate.replace(/{{CAPITAL}}/g, this.data[country].capital);
-    countryPageTemplate = countryPageTemplate.replace(/{{POPULATION}}/g, this.data[country].population);
-    countryPageTemplate = countryPageTemplate.replace(/{{POSTCARDS}}/g, this.buildPostcards());
-
-    return countryPageTemplate;
   },
   renderCountryPage: function() {
     this.content.innerHTML = this.countryPages[this.currentPage];
