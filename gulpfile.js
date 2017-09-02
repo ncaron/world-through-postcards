@@ -7,6 +7,7 @@ var concat = require('gulp-concat');
 var minHTML = require('gulp-htmlmin');
 var minCSS = require('gulp-clean-css');
 var minJS = require('gulp-uglify');
+var lint = require('gulp-eslint');
 
 var config = {
   port: 9005,
@@ -59,6 +60,13 @@ gulp.task('js', function() {
       .pipe(connect.reload());
 });
 
+gulp.task('lint', function() {
+  return gulp.src(config.paths.js)
+             .pipe(lint())
+             .pipe(lint.format())
+             .pipe(lint.failAfterError());
+});
+
 gulp.task('assets', function() {
   gulp.src(config.paths.assets)
       .pipe(gulp.dest(config.paths.dist + '/assets'));
@@ -67,7 +75,7 @@ gulp.task('assets', function() {
 gulp.task('watch', function() {
   gulp.watch(config.paths.html, ['html']);
   gulp.watch(config.paths.sass, ['sass']);
-  gulp.watch(config.paths.js, ['js']);
+  gulp.watch(config.paths.js, ['lint', 'js']);
 });
 
-gulp.task('default', ['html', 'css', 'js', 'assets', 'open', 'watch']);
+gulp.task('default', ['html', 'css', 'lint', 'js', 'assets', 'open', 'watch']);

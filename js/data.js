@@ -1,3 +1,6 @@
+/* eslint no-unused-vars: "off" */
+/* global data */
+
 const data = {
   algeria: {
     name: 'Algeria',
