@@ -50,7 +50,7 @@ const App = {
   renderCountryPage() {
     this.content.innerHTML = this.countryPages[this.currentPage];
   },
-  goBackHome(target) {
+  goToHome(target) {
     if (this.currentPage !== 'home') {
       this.renderCountries();
       this.removeActiveClass();
@@ -99,7 +99,7 @@ const App = {
 
     this.map.fitBounds(bounds);
   },
-  displayAbout(target) {
+  goToAbout(target) {
     if (this.currentPage !== 'about') {
       this.content.innerHTML = this.aboutPageTemplate;
       this.removeActiveClass();
@@ -122,10 +122,10 @@ const App = {
         this.handleClickedCountry(countryClicked);
       } else if (target.id === 'home' || target.id === 'title') {
         e.preventDefault();
-        this.goBackHome(this.home);
+        this.goToHome(this.home);
       } else if (target.id === 'about') {
         e.preventDefault();
-        this.displayAbout(this.about);
+        this.goToAbout(this.about);
         this.buildMap();
       } else if (target.id === 'trade') {
         e.preventDefault();
