@@ -193,13 +193,29 @@ header {
 
 
 /* ABOUT */
+.about {
+  margin-bottom: 50px ;
+  text-align: justify;
+}
+
 .map {
   height: 200px;
   width: 100%;
 }
 
 @media (min-width: 768px) {
+  .about {
+    width: 75%;
+    margin: 0 auto 50px auto;
+  }
+
   .map { height: 700px; }
+}
+
+@media (min-width: 1000px) {
+  .about {
+    width: 50%;
+  }
 }
 
 

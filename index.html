@@ -24,6 +24,7 @@
       <p>Made with <span>&hearts;</span> by <a href="https://github.com/ncaron" target="_blank">Niko Caron</a></p>
     </footer>
 
+    <!-- COUNTRIES -->
     <script type="text/template" id="country-template">
       <div class="country" data-country="{{COUNTRY-DATA}}">
         <p>{{COUNTRY}}</p>
@@ -31,6 +32,7 @@
       </div>
     </script>
 
+    <!-- COUNTRY PAGE -->
     <script type="text/template" id="country-page-template">
       <header class="country-header">
         <h2>{{COUNTRY}}</h2>
@@ -40,6 +42,7 @@
       {{POSTCARDS}}
     </script>
 
+    <!-- POSTCARD -->
     <script type="text/template" id="postcard-template">
       <div class="postcard">
         <p class="card-number">Card #{{CARD-NUMBER}}</p>
@@ -49,12 +52,23 @@
       </div>
     </script>
 
+    <!-- ABOUT PAGE -->
     <script type="text/template" id="about-page">
+      <div class="about">
+        <p>
+          Hello World,
+          <br>
+          <br>
+          I'm Niko. I currently live in Canada and I collect postcards from all over the world. I'm a new software developer and decided to build this website as practice so I can show my collection to the world!
+        </p>
+      </div>
       <div id="map" class="map"></div>
     </script>
 
+    <!-- TRADE PAGE -->
     <script type="text/template" id="trade-page">
       <div>UNDER CONSTRUCTION</div>
+      <div>Please check back soon for a list of cards I have for trade.</div>
     </script>
 
     <script src="js/app.js"></script>

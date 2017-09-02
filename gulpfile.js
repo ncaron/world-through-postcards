@@ -37,7 +37,7 @@ gulp.task('open', ['connect'], function() {
 
 gulp.task('html', function() {
   gulp.src(config.paths.html)
-      .pipe(minHTML({ collapseWhitespace: true, processScripts: ['text/template']}))
+      .pipe(minHTML({ collapseWhitespace: true, processScripts: ['text/template'], removeComments: true }))
       .pipe(gulp.dest(config.paths.dist))
       .pipe(connect.reload());
 });
@@ -74,7 +74,7 @@ gulp.task('assets', function() {
 
 gulp.task('watch', function() {
   gulp.watch(config.paths.html, ['html']);
-  gulp.watch(config.paths.sass, ['sass']);
+  gulp.watch(config.paths.css, ['css']);
   gulp.watch(config.paths.js, ['lint', 'js']);
 });
 
