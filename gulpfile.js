@@ -17,13 +17,13 @@ var config = {
     css: ['./css/reset.css', './css/style.scss'],
     js: ['./js/data.js', './js/app.js'],
     assets: './assets/**/**/*',
-    dist: './dist',
+    build: '../build',
   }
 };
 
 gulp.task('connect', function() {
   connect.server({
-    root: [config.paths.dist],
+    root: [config.paths.build],
     port: config.port,
     base: config.devBaseUrl,
     livereload: true
@@ -31,14 +31,14 @@ gulp.task('connect', function() {
 });
 
 gulp.task('open', ['connect'], function() {
-  gulp.src(config.paths.dist + '/index.html')
+  gulp.src(config.paths.build + '/index.html')
       .pipe(open({ uri: config.devBaseUrl + ':' + config.port + '/' }));
 });
 
 gulp.task('html', function() {
   gulp.src(config.paths.html)
-      .pipe(minHTML({ collapseWhitespace: true, processScripts: ['text/template'], removeComments: true }))
-      .pipe(gulp.dest(config.paths.dist))
+      .pipe(minHTML({ collapseWhitespace: true, processScripts: ['text/template', 'text/javascript'], removeComments: true }))
+      .pipe(gulp.dest(config.paths.build))
       .pipe(connect.reload());
 });
 
@@ -47,7 +47,7 @@ gulp.task('css', function() {
              .pipe(concat('style.css'))
              .pipe(sass().on('error', sass.logError))
              .pipe(minCSS())
-             .pipe(gulp.dest(config.paths.dist + '/css'))
+             .pipe(gulp.dest(config.paths.build + '/css'))
              .pipe(connect.reload());
 });
 
@@ -56,7 +56,7 @@ gulp.task('js', function() {
       .pipe(concat('app.js'))
       .pipe(babel({ presets: ['es2015'] }))
       .pipe(minJS())
-      .pipe(gulp.dest(config.paths.dist + '/js'))
+      .pipe(gulp.dest(config.paths.build + '/js'))
       .pipe(connect.reload());
 });
 
@@ -69,7 +69,7 @@ gulp.task('lint', function() {
 
 gulp.task('assets', function() {
   gulp.src(config.paths.assets)
-      .pipe(gulp.dest(config.paths.dist + '/assets'));
+      .pipe(gulp.dest(config.paths.build + '/assets'));
 })
 
 gulp.task('watch', function() {
