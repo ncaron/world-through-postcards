@@ -1,6 +1,9 @@
 import React from 'react';
+import CountryHeader from './CountryHeader';
+import Postcards from './Postcards';
 
-export default () =>
+export default ({country}) =>
   <div>
-    <p>Country info and cards will go here.</p>
+    <CountryHeader country={country} />
+    <Postcards country={country} />
   </div>

@@ -11,8 +11,8 @@ export default [
         city: 'Annaba',
         coord: { lat: 36.9264582, lng: 7.752535200000011 },
         images: {
-          front: './assets/cards/front/front003.jpg',
-          back: './assets/cards/back/back003.jpg',
+          front: 'front003.jpg',
+          back: 'back003.jpg',
         },
       },
     ],
@@ -30,8 +30,8 @@ export default [
         city: 'Melbourne',
         coord: { lat: -37.8136276, lng: 144.96305759999996 },
         images: {
-          front: './assets/cards/front/front018.jpg',
-          back: './assets/cards/back/back018.jpg',
+          front: 'front018.jpg',
+          back: 'back018.jpg',
         },
       },
     ],
@@ -49,8 +49,8 @@ export default [
         city: 'Grand Falls, New Brunswick',
         coord: { lat: 47.04799346, lng: -67.73990149999997 },
         images: {
-          front: './assets/cards/front/front001.jpg',
-          back: './assets/cards/back/back001.jpg',
+          front: 'front001.jpg',
+          back: 'back001.jpg',
         },
       },
     ],
@@ -68,8 +68,8 @@ export default [
         city: 'Guangzhou',
         coord: { lat: 23.12911, lng: 113.26438499999995 },
         images: {
-          front: './assets/cards/front/front014.jpg',
-          back: './assets/cards/back/back014.jpg',
+          front: 'front014.jpg',
+          back: 'back014.jpg',
         },
       },
     ],
@@ -87,8 +87,8 @@ export default [
         city: 'Rovinj',
         coord: { lat: 45.0811661, lng: 13.638706700000057 },
         images: {
-          front: './assets/cards/front/front004.jpg',
-          back: './assets/cards/back/back004.jpg',
+          front: 'front004.jpg',
+          back: 'back004.jpg',
         },
       },
       {
@@ -96,8 +96,8 @@ export default [
         city: 'Zagreb',
         coord: { lat: 45.8150108, lng: 15.981918899999982 },
         images: {
-          front: './assets/cards/front/front005.jpg',
-          back: './assets/cards/back/back005.jpg',
+          front: 'front005.jpg',
+          back: 'back005.jpg',
         },
       },
     ],
@@ -115,8 +115,8 @@ export default [
         city: 'Skegness',
         coord: { lat: 53.146403, lng: 0.3378810000000385 },
         images: {
-          front: './assets/cards/front/front015.jpg',
-          back: './assets/cards/back/back015.jpg',
+          front: 'front015.jpg',
+          back: 'back015.jpg',
         },
       },
     ],
@@ -134,8 +134,8 @@ export default [
         city: 'Rapla',
         coord: { lat: 59.0057346, lng: 24.79424199999994 },
         images: {
-          front: './assets/cards/front/front019.jpg',
-          back: './assets/cards/back/back019.jpg',
+          front: 'front019.jpg',
+          back: 'back019.jpg',
         },
       },
     ],
@@ -153,8 +153,8 @@ export default [
         city: 'Kuopio',
         coord: { lat: 62.89796999999999, lng: 27.67817249999996 },
         images: {
-          front: './assets/cards/front/front002.jpg',
-          back: './assets/cards/back/back002.jpg',
+          front: 'front002.jpg',
+          back: 'back002.jpg',
         },
       },
       {
@@ -162,8 +162,8 @@ export default [
         city: 'Helsinki',
         coord: { lat: 60.16985569999999, lng: 24.93837910000002 },
         images: {
-          front: './assets/cards/front/front008.jpg',
-          back: './assets/cards/back/back008.jpg',
+          front: 'front008.jpg',
+          back: 'back008.jpg',
         },
       },
     ],
@@ -181,8 +181,8 @@ export default [
         city: 'Berlin',
         coord: { lat: 52.52000659999999, lng: 13.404953999999975 },
         images: {
-          front: './assets/cards/front/front016.jpg',
-          back: './assets/cards/back/back016.jpg',
+          front: 'front016.jpg',
+          back: 'back016.jpg',
         },
       },
     ],
@@ -200,8 +200,8 @@ export default [
         city: 'Polygyros',
         coord: { lat: 40.3816285, lng: 23.44259809999994 },
         images: {
-          front: './assets/cards/front/front017.jpg',
-          back: './assets/cards/back/back017.jpg',
+          front: 'front017.jpg',
+          back: 'back017.jpg',
         },
       },
     ],
@@ -219,8 +219,8 @@ export default [
         city: 'Kota Bharu',
         coord: { lat: 6.1167855, lng: 102.27768379999998 },
         images: {
-          front: './assets/cards/front/front013.jpg',
-          back: './assets/cards/back/back013.jpg',
+          front: 'front013.jpg',
+          back: 'back013.jpg',
         },
       },
     ],
@@ -238,8 +238,8 @@ export default [
         city: 'Goes',
         coord: { lat: 51.5046455, lng: 3.8911304000000655 },
         images: {
-          front: './assets/cards/front/front007.jpg',
-          back: './assets/cards/back/back007.jpg',
+          front: 'front007.jpg',
+          back: 'back007.jpg',
         },
       },
       {
@@ -247,8 +247,8 @@ export default [
         city: 'Arnhem',
         coord: { lat: 51.9851034, lng: 5.898729600000024 },
         images: {
-          front: './assets/cards/front/front012.jpg',
-          back: './assets/cards/back/back012.jpg',
+          front: 'front012.jpg',
+          back: 'back012.jpg',
         },
       },
     ],
@@ -266,8 +266,8 @@ export default [
         city: 'Valenzuela',
         coord: { lat: 14.7010556, lng: 120.98302250000006 },
         images: {
-          front: './assets/cards/front/front009.jpg',
-          back: './assets/cards/back/back009.jpg',
+          front: 'front009.jpg',
+          back: 'back009.jpg',
         },
       },
     ],
@@ -285,8 +285,8 @@ export default [
         city: 'Oryol',
         coord: { lat: 52.9668468, lng: 36.06248979999998 },
         images: {
-          front: './assets/cards/front/front011.jpg',
-          back: './assets/cards/back/back011.jpg',
+          front: 'front011.jpg',
+          back: 'back011.jpg',
         },
       },
       {
@@ -294,8 +294,8 @@ export default [
         city: 'Yekaterinburg',
         coord: { lat: 56.83892609999999, lng: 60.60570250000001 },
         images: {
-          front: './assets/cards/front/front020.jpg',
-          back: './assets/cards/back/back020.jpg',
+          front: 'front020.jpg',
+          back: 'back020.jpg',
         },
       },
     ],
@@ -313,8 +313,8 @@ export default [
         city: 'Keelung',
         coord: { lat: 25.1276033, lng: 121.73918329999992 },
         images: {
-          front: './assets/cards/front/front006.jpg',
-          back: './assets/cards/back/back006.jpg',
+          front: 'front006.jpg',
+          back: 'back006.jpg',
         },
       },
     ],
@@ -332,8 +332,8 @@ export default [
         city: 'Istanbul',
         coord: { lat: 41.0082376, lng: 28.97835889999999 },
         images: {
-          front: './assets/cards/front/front010.jpg',
-          back: './assets/cards/back/back010.jpg',
+          front: 'front010.jpg',
+          back: 'back010.jpg',
         },
       },
     ],

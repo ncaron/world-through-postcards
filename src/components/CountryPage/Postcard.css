@@ -1,0 +1,27 @@
+.postcard .card-number { font-size: 18px; }
+.postcard .city { margin-bottom: 10px; }
+
+.postcard + .postcard {
+  padding-top: 15px;
+  margin-top: 15px;
+  border-top: 1px solid black;
+}
+
+.postcard span {
+  display: inline-block;
+  width: 100%;
+}
+
+.postcard span + span { margin-top: 20px; }
+.postcard img {width: 100%; }
+
+@media (min-width: 1000px) {
+  .postcard span {
+    vertical-align: top;
+    width: 50%;
+  }
+
+  .postcard img { width: 97%; }
+  .postcard span + span { margin-top: 0; }
+  .postcard span + span img { float: right; }
+}
