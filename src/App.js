@@ -5,7 +5,7 @@ import MainPage from './components/MainPage/MainPage';
 import Footer from './components/Footer/Footer';
 
 export default ({data}) =>
-  <Router>
+  <Router basename="/world-through-postcards/">
     <div>
       <Header data={data} />
       <MainPage data={data} />
