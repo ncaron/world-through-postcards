@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 15px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.footer a {
+  color: black;
+  text-decoration: underline;
+}
+
+.footer p { padding: 10px 0; }
+.footer span { color: red; }
+.footer .fa-instagram { font-size: 30px; }
