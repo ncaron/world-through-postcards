@@ -1,14 +1,9 @@
-import React, { Component } from 'react';
-import Header from './components/header/Header';
+import React from 'react';
+import Header from './components/Header/Header';
+import HomePage from './components/HomePage/HomePage';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-      </div>
-    );
-  }
-}
-
-export default App;
+export default ({data}) =>
+  <div>
+    <Header />
+    <HomePage data={data} />
+  </div>

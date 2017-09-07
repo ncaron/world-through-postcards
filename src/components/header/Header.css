@@ -1,4 +1,8 @@
-.header { border-bottom: 1px solid black; }
+.header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
 .header a { color: black; }
 
 .header h1 {

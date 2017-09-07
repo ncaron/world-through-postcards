@@ -11,6 +11,11 @@
   text-align: center;
 }
 
+.nav a.active {
+  font-weight: bold;
+  background-color: #eee;
+}
+
 .nav a + a { border-top: 1px solid black; }
 
 @media (min-width: 768px) {

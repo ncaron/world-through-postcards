@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Nav.css';
 
 export default () =>
@@ -7,3 +7,4 @@ export default () =>
     <a href="#">Trade</a>
     <a href="#">About</a>
   </nav>
+  
