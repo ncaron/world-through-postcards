@@ -7,7 +7,7 @@ export default ({country}) => {
   const flagAlt = `${country.name} flag`
 
   return (
-    <NavLink to={`/${country.name.toLowerCase()}`} className="country">
+    <NavLink to={country.path} className="country">
       <h2>{country.name}</h2>
       <img src={flagSrc} alt={flagAlt} className="flag" />
     </NavLink>

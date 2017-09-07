@@ -4,6 +4,7 @@ export default [
     code: 'dz',
     capital: 'Algiers',
     population: '40,400,000',
+    path: '/algeria',
     cards: [
       {
         number: '1',
@@ -22,6 +23,7 @@ export default [
     code: 'au',
     capital: 'Canberra',
     population: '24,637,400',
+    path: '/australia',
     cards: [
       {
         number: '1',
@@ -40,6 +42,7 @@ export default [
     code: 'ca',
     capital: 'Ottawa',
     population: '934,243',
+    path: '/canada',
     cards: [
       {
         number: '1',
@@ -58,6 +61,7 @@ export default [
     code: 'cn',
     capital: 'Beijing',
     population: '1,373,541,278',
+    path: '/china',
     cards: [
       {
         number: '1',
@@ -76,6 +80,7 @@ export default [
     code: 'hr',
     capital: 'Zagreb',
     population: '4,190,700',
+    path: '/croatia',
     cards: [
       {
         number: '1',
@@ -103,6 +108,7 @@ export default [
     code: 'gb-eng',
     capital: 'London',
     population: '54,786,300',
+    path: '/england',
     cards: [
       {
         number: '1',
@@ -121,6 +127,7 @@ export default [
     code: 'ee',
     capital: 'Tallinn',
     population: '1,315,635',
+    path: '/estonia',
     cards: [
       {
         number: '1',
@@ -139,6 +146,7 @@ export default [
     code: 'fi',
     capital: 'Helsinki',
     population: '5,506,312',
+    path: '/finland',
     cards: [
       {
         number: '1',
@@ -166,6 +174,7 @@ export default [
     code: 'de',
     capital: 'Berlin',
     population: '82,175,700',
+    path: '/germany',
     cards: [
       {
         number: '1',
@@ -184,6 +193,7 @@ export default [
     code: 'gr',
     capital: 'Athens',
     population: '10,955,000',
+    path: '/greece',
     cards: [
       {
         number: '1',
@@ -202,6 +212,7 @@ export default [
     code: 'my',
     capital: 'Kuala Lumpur',
     population: '31,636,000',
+    path: '/malaysia',
     cards: [
       {
         number: '1',
@@ -220,6 +231,7 @@ export default [
     code: 'nl',
     capital: 'Amsterdam',
     population: '17,116,281',
+    path: '/netherlands',
     cards: [
       {
         number: '1',
@@ -247,6 +259,7 @@ export default [
     code: 'ph',
     capital: 'Manila',
     population: '100,981,437',
+    path: '/philippines',
     cards: [
       {
         number: '1',
@@ -265,6 +278,7 @@ export default [
     code: 'ru',
     capital: 'Moscow',
     population: '144,463,451',
+    path: '/russia',
     cards: [
       {
         number: '1',
@@ -292,6 +306,7 @@ export default [
     code: 'tw',
     capital: 'Taipei',
     population: '23,550,077',
+    path: '/taiwan',
     cards: [
       {
         number: '1',
@@ -310,6 +325,7 @@ export default [
     code: 'tr',
     capital: 'Ankara',
     population: '79,814,871',
+    path: '/turkey',
     cards: [
       {
         number: '1',

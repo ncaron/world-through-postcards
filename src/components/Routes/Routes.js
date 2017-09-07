@@ -7,7 +7,7 @@ import CountryPage from '../CountryPage/CountryPage';
 
 export default ({data}) => {
   const countryRoutes = data.map((country) => {
-    return <Route path={`/${country.name.toLowerCase()}`} component={CountryPage} key={country.name} />
+    return <Route path={country.path} component={CountryPage} key={country.name} />
   });
 
   return (
