@@ -1,0 +1,25 @@
+.header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.header a { color: black; }
+
+.header h1 {
+  float: left;
+  font-size: 24px;
+  text-transform: uppercase;
+  width: 50%;
+  word-spacing: 9999px;
+}
+
+@media (min-width: 768px) {
+  .header h1 {
+    float: none;
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 36px;
+    text-align: center;
+    word-spacing: 0;
+  }
+}

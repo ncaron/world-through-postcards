@@ -1,0 +1,50 @@
+.footer {
+  margin-top: 15px;
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+.footer a {
+  color: black;
+  text-decoration: underline;
+}
+
+.footer p { padding: 10px 0; }
+
+.footer span {
+  position: relative;
+  top: -3px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  font-size: 40px;
+  background-image: -webkit-linear-gradient(50deg, red, pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 1s infinite linear;
+}
+
+@keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+    transform: scale(0);
+  }
+}
+
+.footer .fa {
+  margin: 0 25px;
+  font-size: 30px;
+}
+
+.footer .fa-instagram:hover { color: #f92c01; }
+.footer .fa-github:hover { color: #582879; }
+.footer .fa-linkedin:hover { color: #0274b3; }

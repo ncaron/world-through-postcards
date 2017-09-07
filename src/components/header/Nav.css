@@ -1,0 +1,40 @@
+.nav {
+  margin-left: 60%;
+  border-left: 1px solid black;
+}
+
+.nav a {
+  display: block;
+  width: 100%;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+}
+
+.nav a.active {
+  font-weight: bold;
+  background-color: #eee;
+}
+
+.nav a:hover { background-color: #f7f7f7; }
+.nav a.active:hover { background-color: #eee; }
+
+.nav a + a { border-top: 1px solid black; }
+
+@media (min-width: 768px) {
+  .nav {
+    margin-left: 0;
+    border-left: none;
+  }
+
+  .nav a {
+    display: inline-block;
+    width: 33.333%;
+    line-height: 50px;
+  }
+
+  .nav a + a {
+    border-top: none;
+    border-left: 1px solid black;
+  }
+}
