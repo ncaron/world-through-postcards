@@ -3,6 +3,22 @@
   text-align: justify;
 }
 
+.about p { margin-bottom: 20px; }
+
+.about ul {
+  margin-left: 50px;
+  list-style-type: disc;
+}
+
+.about li {
+  padding: 7px 0;
+}
+
+.about li a {
+  color: red;
+  text-decoration: underline;
+}
+
 @media (min-width: 768px) {
   .about {
     width: 75%;

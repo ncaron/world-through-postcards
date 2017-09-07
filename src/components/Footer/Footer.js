@@ -9,7 +9,15 @@ export default () =>
       <a href="https://github.com/ncaron" target="_blank" rel="noopener noreferrer">Niko Caron</a>
     </p>
 
-    <a className="insta" href="https://www.instagram.com/world_through_postcards/" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.instagram.com/world_through_postcards/" target="_blank" rel="noopener noreferrer">
       <i className="fa fa-instagram"></i>
+    </a>
+
+    <a href="https://github.com/ncaron/world-through-postcards" target="_blank" rel="noopener noreferrer">
+      <i className="fa fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/nikocaron/" target="_blank" rel="noopener noreferrer">
+      <i className="fa fa-linkedin"></i>
     </a>
   </footer>
