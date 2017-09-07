@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './Country.css';
 
 export default ({country}) => {
@@ -6,9 +7,9 @@ export default ({country}) => {
   const flagAlt = `${country.name} flag`
 
   return (
-    <div key={country.name} className="country">
+    <NavLink to={`/${country.name.toLowerCase()}`} className="country">
       <h2>{country.name}</h2>
       <img src={flagSrc} alt={flagAlt} className="flag" />
-    </div>
+    </NavLink>
   );
 }

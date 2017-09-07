@@ -1,11 +1,14 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header/Header';
-import HomePage from './components/HomePage/HomePage';
+import MainPage from './components/MainPage/MainPage';
 import Footer from './components/Footer/Footer';
 
 export default ({data}) =>
-  <div>
-    <Header />
-    <HomePage data={data} />
-    <Footer />
-  </div>
+  <Router>
+    <div>
+      <Header />
+      <MainPage data={data} />
+      <Footer />
+    </div>
+  </Router>
