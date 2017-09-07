@@ -16,8 +16,7 @@
   top: -3px;
   display: inline-block;
   vertical-align: middle;
-  height: 40px;
-  width: 40px;
+  width: 50px;
   font-size: 40px;
   background-image: -webkit-linear-gradient(50deg, red, pink);
   -webkit-background-clip: text;
@@ -28,16 +27,16 @@
 @keyframes hue {
   0% {
     filter: hue-rotate(0deg);
-    font-size: 20px;
+    transform: scale(0);
   }
 
   50% {
-    font-size: 40px;
+    transform: scale(2);
   }
 
   100% {
     filter: hue-rotate(360deg);
-    font-size: 20px;
+    transform: scale(0);
   }
 }
 

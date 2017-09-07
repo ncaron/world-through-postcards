@@ -13,7 +13,7 @@
 }
 
 .postcard span + span { margin-top: 20px; }
-.postcard img {width: 100%; }
+.postcard img { width: 100%; }
 
 @media (min-width: 1000px) {
   .postcard span {
