@@ -12,9 +12,9 @@ export default ({data}) => {
 
   return (
     <div>
-      <Route exact path="/" component={HomePage} />
+      <Route exact path="/" render={() => <HomePage data={data} />} />
       <Route path="/trade" component={TradePage} />
-      <Route path="/about" component={AboutPage} />
+      <Route path="/about" render={() => <AboutPage data={data} />} />
       {countryRoutes}
     </div>
   );

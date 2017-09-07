@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer';
 export default ({data}) =>
   <Router>
     <div>
-      <Header />
+      <Header data={data} />
       <MainPage data={data} />
       <Footer />
     </div>
