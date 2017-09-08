@@ -208,6 +208,25 @@ export default [
   },
 
   {
+    name: 'Japan',
+    code: 'jp',
+    capital: 'Tokyo',
+    population: '126,740,000',
+    path: '/japan',
+    cards: [
+      {
+        number: '1',
+        city: 'Osaka',
+        coord: { lat: 34.6937378, lng: 135.50216509999996 },
+        images: {
+          front: 'front021.jpg',
+          back: 'back021.jpg',
+        },
+      },
+    ],
+  },
+
+  {
     name: 'Malaysia',
     code: 'my',
     capital: 'Kuala Lumpur',
