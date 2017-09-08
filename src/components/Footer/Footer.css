@@ -17,11 +17,9 @@
   display: inline-block;
   vertical-align: middle;
   width: 50px;
-  color: red;
+  color: blue;
   font-size: 40px;
-  background-image: -webkit-linear-gradient(50deg, red, pink);
-  -webkit-background-clip: text;
-  -webkit-animation: hue 1s infinite linear;
+  -webkit-animation: hue 1s infinite ease-in-out;
 }
 
 @keyframes hue {

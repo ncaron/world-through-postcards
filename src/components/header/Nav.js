@@ -8,4 +8,3 @@ export default () =>
     <NavLink activeClassName="active" to="/trade">Trade</NavLink>
     <NavLink activeClassName="active" to="/about">About</NavLink>
   </nav>
-  

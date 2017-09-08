@@ -5,7 +5,7 @@ import MainPage from './components/MainPage/MainPage';
 import Footer from './components/Footer/Footer';
 
 export default ({data}) =>
-  <Router basename="/world-through-postcards/">
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
       <Header data={data} />
       <MainPage data={data} />
