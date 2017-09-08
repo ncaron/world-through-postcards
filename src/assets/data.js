@@ -1,5 +1,5 @@
 export default [
-  {
+  { // Algeria
     name: 'Algeria',
     code: 'dz',
     capital: 'Algiers',
@@ -7,75 +7,39 @@ export default [
     path: '/algeria',
     cards: [
       {
-        number: '1',
         city: 'Annaba',
-        coord: { lat: 36.9264582, lng: 7.752535200000011 },
+        coord: { lat: 36.926, lng: 7.753 },
+        insta: 'https://www.instagram.com/p/BL7_yaPhlrZ/',
+        displayBack: true,
         images: {
-          front: 'front003.jpg',
-          back: 'back003.jpg',
+          front: 'algeria_front001.jpg',
+          back: 'algeria_back001.jpg',
         },
       },
     ],
   },
 
-  {
-    name: 'Australia',
-    code: 'au',
-    capital: 'Canberra',
-    population: '24,637,400',
-    path: '/australia',
+  { // Brazil
+    name: 'Brazil',
+    code: 'br',
+    capital: 'Brasília',
+    population: '207,350,000',
+    path: '/brazil',
     cards: [
       {
-        number: '1',
-        city: 'Melbourne',
-        coord: { lat: -37.8136276, lng: 144.96305759999996 },
+        city: 'Salvador',
+        coord: { lat: -12.973, lng: -38.502 },
+        insta: null,
+        displayBack: true,
         images: {
-          front: 'front018.jpg',
-          back: 'back018.jpg',
+          front: 'brazil_front001.jpg',
+          back: 'brazil_back001.jpg',
         },
       },
     ],
   },
 
-  {
-    name: 'Canada',
-    code: 'ca',
-    capital: 'Ottawa',
-    population: '934,243',
-    path: '/canada',
-    cards: [
-      {
-        number: '1',
-        city: 'Grand Falls, New Brunswick',
-        coord: { lat: 47.04799346, lng: -67.73990149999997 },
-        images: {
-          front: 'front001.jpg',
-          back: 'back001.jpg',
-        },
-      },
-    ],
-  },
-
-  {
-    name: 'China',
-    code: 'cn',
-    capital: 'Beijing',
-    population: '1,373,541,278',
-    path: '/china',
-    cards: [
-      {
-        number: '1',
-        city: 'Guangzhou',
-        coord: { lat: 23.12911, lng: 113.26438499999995 },
-        images: {
-          front: 'front014.jpg',
-          back: 'back014.jpg',
-        },
-      },
-    ],
-  },
-
-  {
+  { // Croatia
     name: 'Croatia',
     code: 'hr',
     capital: 'Zagreb',
@@ -83,27 +47,49 @@ export default [
     path: '/croatia',
     cards: [
       {
-        number: '1',
         city: 'Rovinj',
-        coord: { lat: 45.0811661, lng: 13.638706700000057 },
+        coord: { lat: 45.081, lng: 13.639 },
+        insta: 'https://www.instagram.com/p/BL-SFeEhrSj/',
+        displayBack: true,
         images: {
-          front: 'front004.jpg',
-          back: 'back004.jpg',
+          front: 'croatia_front001.jpg',
+          back: 'croatia_back001.jpg',
         },
       },
       {
-        number: '2',
         city: 'Zagreb',
-        coord: { lat: 45.8150108, lng: 15.981918899999982 },
+        coord: { lat: 45.815, lng: 15.982 },
+        insta: 'https://www.instagram.com/p/BL-SFeEhrSj/',
+        displayBack: true,
         images: {
-          front: 'front005.jpg',
-          back: 'back005.jpg',
+          front: 'croatia_front002.jpg',
+          back: 'croatia_back002.jpg',
         },
       },
     ],
   },
 
-  {
+  { // Czech Republic
+    name: 'Czech Republic',
+    code: 'cz',
+    capital: 'Prague',
+    population: '10,553,948',
+    path: '/czechrepublic',
+    cards: [
+      {
+        city: 'Karlovy Vary',
+        coord: { lat: 50.232, lng: 12.872 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'czechrepublic_front001.jpg',
+          back: 'czechrepublic_back001.jpg',
+        },
+      },
+    ],
+  },
+
+  { // England
     name: 'England',
     code: 'gb-eng',
     capital: 'London',
@@ -111,18 +97,59 @@ export default [
     path: '/england',
     cards: [
       {
-        number: '1',
-        city: 'Skegness',
-        coord: { lat: 53.146403, lng: 0.3378810000000385 },
+        city: 'Chesterfield',
+        coord: { lat: 53.235, lng: -1.422 },
+        insta: null,
+        displayBack: true,
         images: {
-          front: 'front015.jpg',
-          back: 'back015.jpg',
+          front: 'england_front005.jpg',
+          back: 'england_back005.jpg',
+        },
+      },
+      {
+        city: 'Chesterfield',
+        coord: { lat: 53.235, lng: -1.422 },
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'england_front004.jpg',
+          back: 'england_back004.jpg',
+        },
+      },
+      {
+        city: 'Chesterfield',
+        coord: { lat: 53.235, lng: -1.422 },
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'england_front003.jpg',
+          back: 'england_back003.jpg',
+        },
+      },
+      {
+        city: 'Chesterfield',
+        coord: { lat: 53.235, lng: -1.422 },
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'england_front002.jpg',
+          back: 'england_back002.jpg',
+        },
+      },
+      {
+        city: 'Skegness',
+        coord: { lat: 53.146, lng: 0.338 },
+        insta: 'https://www.instagram.com/p/BXTf71pDLMn/',
+        displayBack: true,
+        images: {
+          front: 'england_front001.jpg',
+          back: 'england_back001.jpg',
         },
       },
     ],
   },
 
-  {
+  { // Estonia
     name: 'Estonia',
     code: 'ee',
     capital: 'Tallinn',
@@ -130,65 +157,109 @@ export default [
     path: '/estonia',
     cards: [
       {
-        number: '1',
+        city: 'Tallinn',
+        coord: { lat: 59.437, lng: 24.754 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'estonia_front005.jpg',
+          back: 'estonia_back005.jpg',
+        },
+      },
+      {
+        city: 'Rakvere',
+        coord: { lat: 59.347, lng: 26.365 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'estonia_front004.jpg',
+          back: 'estonia_back004.jpg',
+        },
+      },
+      {
+        city: 'Tallinn',
+        coord: { lat: 59.437, lng: 24.754 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'estonia_front003.jpg',
+          back: 'estonia_back003.jpg',
+        },
+      },
+      {
         city: 'Rapla',
-        coord: { lat: 59.0057346, lng: 24.79424199999994 },
+        coord: { lat: 59.006, lng: 24.794 },
+        insta: 'https://www.instagram.com/p/BYAzKvZjPhV/',
+        displayBack: true,
         images: {
-          front: 'front019.jpg',
-          back: 'back019.jpg',
+          front: 'estonia_front002.jpg',
+          back: 'estonia_back002.jpg',
+        },
+      },
+      {
+        city: 'Tallinn',
+        coord: { lat: 59.437, lng: 24.754 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'estonia_front001.jpg',
+          back: 'estonia_back001.jpg',
         },
       },
     ],
   },
 
-  {
-    name: 'Finland',
-    code: 'fi',
-    capital: 'Helsinki',
-    population: '5,506,312',
-    path: '/finland',
+  { // France
+    name: 'France',
+    code: 'fr',
+    capital: 'Paris',
+    population: '66,991,000',
+    path: '/france',
     cards: [
       {
-        number: '1',
-        city: 'Kuopio',
-        coord: { lat: 62.89796999999999, lng: 27.67817249999996 },
+        city: 'Rouen',
+        coord: { lat: 49.443, lng: 1.1 },
+        insta: null,
+        displayBack: true,
         images: {
-          front: 'front002.jpg',
-          back: 'back002.jpg',
+          front: 'france_front004.jpg',
+          back: 'france_back004.jpg',
         },
       },
       {
-        number: '2',
-        city: 'Helsinki',
-        coord: { lat: 60.16985569999999, lng: 24.93837910000002 },
+        city: 'Rouen',
+        coord: { lat: 49.443, lng: 1.1 },
+        insta: null,
+        displayBack: true,
         images: {
-          front: 'front008.jpg',
-          back: 'back008.jpg',
+          front: 'france_front003.jpg',
+          back: 'france_back003.jpg',
+        },
+      },
+      {
+        city: 'Rouen',
+        coord: { lat: 49.443, lng: 1.1 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'france_front002.jpg',
+          back: 'france_back002.jpg',
+        },
+      },
+      {
+        city: 'Paris',
+        coord: { lat: 48.857, lng: 2.352 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'france_front001.jpg',
+          back: 'france_back001.jpg',
         },
       },
     ],
   },
 
-  {
-    name: 'Germany',
-    code: 'de',
-    capital: 'Berlin',
-    population: '82,175,700',
-    path: '/germany',
-    cards: [
-      {
-        number: '1',
-        city: 'Berlin',
-        coord: { lat: 52.52000659999999, lng: 13.404953999999975 },
-        images: {
-          front: 'front016.jpg',
-          back: 'back016.jpg',
-        },
-      },
-    ],
-  },
-
-  {
+  { // Greece
     name: 'Greece',
     code: 'gr',
     capital: 'Athens',
@@ -196,163 +267,303 @@ export default [
     path: '/greece',
     cards: [
       {
-        number: '1',
         city: 'Polygyros',
-        coord: { lat: 40.3816285, lng: 23.44259809999994 },
+        coord: { lat: 40.382, lng: 23.443 },
+        insta: 'https://www.instagram.com/p/BXwIRSWD1fp/',
+        displayBack: true,
         images: {
-          front: 'front017.jpg',
-          back: 'back017.jpg',
+          front: 'greece_front001.jpg',
+          back: 'greece_back001.jpg',
         },
       },
     ],
   },
 
-  {
-    name: 'Japan',
-    code: 'jp',
-    capital: 'Tokyo',
-    population: '126,740,000',
-    path: '/japan',
+  { // Hong Kong
+    name: 'Hong Kong',
+    code: 'hk',
+    capital: 'Hong Kong',
+    population: '7,374,900',
+    path: '/hongkong',
     cards: [
       {
-        number: '1',
-        city: 'Osaka',
-        coord: { lat: 34.6937378, lng: 135.50216509999996 },
+        city: 'Hong Kong',
+        coord: { lat: 22.28, lng: 114.159 },
+        insta: null,
+        displayBack: true,
         images: {
-          front: 'front021.jpg',
-          back: 'back021.jpg',
+          front: 'hongkong_front002.jpg',
+          back: 'hongkong_back002.jpg',
+        },
+      },
+      {
+        city: 'Hong Kong',
+        coord: { lat: 22.28, lng: 114.159 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'hongkong_front001.jpg',
+          back: 'hongkong_back001.jpg',
         },
       },
     ],
   },
 
-  {
+  { // Hungary
+    name: 'Hungary',
+    code: 'hu',
+    capital: 'Budapest',
+    population: '9,797,561',
+    path: '/hungary',
+    cards: [
+      {
+        city: 'Tárnok',
+        coord: { lat: 47.368, lng: 18.861 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'hungary_front001.jpg',
+          back: 'hungary_back001.jpg',
+        },
+      },
+    ],
+  },
+
+  { // India
+    name: 'India',
+    code: 'in',
+    capital: 'New Delhi',
+    population: '1,326,572,000',
+    path: '/india',
+    cards: [
+      {
+        city: 'Bangalore',
+        coord: { lat: 12.972, lng: 77.595 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'india_front001.jpg',
+          back: 'india_back001.jpg',
+        },
+      },
+    ],
+  },
+
+  { // Indonesia
+    name: 'Indonesia',
+    code: 'id',
+    capital: 'Jakarta',
+    population: '263,510,000',
+    path: '/indonesia',
+    cards: [
+      {
+        city: 'Jakarta',
+        coord: { lat: -6.174, lng: 106.823 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'indonesia_front002.jpg',
+          back: 'indonesia_back002.jpg',
+        },
+      },
+      {
+        city: 'Jakarta',
+        coord: { lat: -6.174, lng: 106.823 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'indonesia_front001.jpg',
+          back: 'indonesia_back001.jpg',
+        },
+      },
+    ],
+  },
+
+  { // Ireland
+    name: 'Ireland',
+    code: 'ie',
+    capital: 'Dublin',
+    population: '6,378,000',
+    path: '/ireland',
+    cards: [
+      {
+        city: 'Navan',
+        coord: { lat: 53.647, lng: -6.697 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'ireland_front001.jpg',
+          back: 'ireland_back001.jpg',
+        },
+      },
+    ],
+  },
+
+  { // Israel
+    name: 'Israel',
+    code: 'il',
+    capital: 'Jerusalem',
+    population: '8,738,340',
+    path: '/israel',
+    cards: [
+      {
+        city: 'Jerusalem',
+        coord: { lat: 31.768, lng: 35.214 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'israel_front001.jpg',
+          back: 'israel_back001.jpg',
+        },
+      },
+    ],
+  },
+
+  { // Italy
+    name: 'Italy',
+    code: 'it',
+    capital: 'Rome',
+    population: '60,599,936',
+    path: '/italy',
+    cards: [
+      {
+        city: 'Bergamo',
+        coord: { lat: 45.698, lng: 9.677 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'italy_front001.jpg',
+          back: 'italy_back001.jpg',
+        },
+      },
+    ],
+  },
+
+  { // Lithuania
+    name: 'Lithuania',
+    code: 'lt',
+    capital: 'Vilnius',
+    population: '2,821,674',
+    path: '/lithuania',
+    cards: [
+      {
+        city: 'Mažeikiai',
+        coord: { lat: 56.309, lng: 22.341 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'lithuania_front001.jpg',
+          back: 'lithuania_back001.jpg',
+        },
+      },
+    ],
+  },
+
+  { // Malaysia
     name: 'Malaysia',
     code: 'my',
     capital: 'Kuala Lumpur',
-    population: '31,636,000',
+    population: '31,647,000',
     path: '/malaysia',
     cards: [
       {
-        number: '1',
+        city: 'Shah Alam',
+        coord: { lat: 3.073, lng: 101.518 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'malaysia_front002.jpg',
+          back: 'malaysia_back002.jpg',
+        },
+      },
+      {
         city: 'Kota Bharu',
-        coord: { lat: 6.1167855, lng: 102.27768379999998 },
+        coord: { lat: 6.125, lng: 102.238 },
+        insta: 'https://www.instagram.com/p/BUa92hRDy6r/',
+        displayBack: true,
         images: {
-          front: 'front013.jpg',
-          back: 'back013.jpg',
+          front: 'malaysia_front001.jpg',
+          back: 'malaysia_back001.jpg',
         },
       },
     ],
   },
 
-  {
-    name: 'Netherlands',
-    code: 'nl',
-    capital: 'Amsterdam',
-    population: '17,116,281',
-    path: '/netherlands',
+  { // New Zealand
+    name: 'New Zealand',
+    code: 'nz',
+    capital: 'Wellington',
+    population: '4,814,190',
+    path: '/newzealand',
     cards: [
       {
-        number: '1',
-        city: 'Goes',
-        coord: { lat: 51.5046455, lng: 3.8911304000000655 },
+        city: 'Timaru',
+        coord: { lat: -44.397, lng: 171.255 },
+        insta: null,
+        displayBack: true,
         images: {
-          front: 'front007.jpg',
-          back: 'back007.jpg',
-        },
-      },
-      {
-        number: '2',
-        city: 'Arnhem',
-        coord: { lat: 51.9851034, lng: 5.898729600000024 },
-        images: {
-          front: 'front012.jpg',
-          back: 'back012.jpg',
+          front: 'newzealand_front001.jpg',
+          back: 'newzealand_back001.jpg',
         },
       },
     ],
   },
 
-  {
-    name: 'Philippines',
-    code: 'ph',
-    capital: 'Manila',
-    population: '100,981,437',
-    path: '/philippines',
+  { // Romania
+    name: 'Romania',
+    code: 'ro',
+    capital: 'Bucharest',
+    population: '19,638,000 ',
+    path: '/romania',
     cards: [
       {
-        number: '1',
-        city: 'Valenzuela',
-        coord: { lat: 14.7010556, lng: 120.98302250000006 },
+        city: 'Constanța',
+        coord: { lat: 44.16, lng: 28.635 },
+        insta: null,
+        displayBack: true,
         images: {
-          front: 'front009.jpg',
-          back: 'back009.jpg',
+          front: 'romania_front001.jpg',
+          back: 'romania_back001.jpg',
         },
       },
     ],
   },
 
-  {
-    name: 'Russia',
-    code: 'ru',
-    capital: 'Moscow',
-    population: '144,463,451',
-    path: '/russia',
+  { // Spain
+    name: 'Spain',
+    code: 'es',
+    capital: 'Madrid',
+    population: '46,468,102',
+    path: '/spain',
     cards: [
       {
-        number: '1',
-        city: 'Oryol',
-        coord: { lat: 52.9668468, lng: 36.06248979999998 },
+        city: 'Oviedo',
+        coord: { lat: 43.362, lng: -5.849 },
+        insta: null,
+        displayBack: true,
         images: {
-          front: 'front011.jpg',
-          back: 'back011.jpg',
-        },
-      },
-      {
-        number: '2',
-        city: 'Yekaterinburg',
-        coord: { lat: 56.83892609999999, lng: 60.60570250000001 },
-        images: {
-          front: 'front020.jpg',
-          back: 'back020.jpg',
+          front: 'spain_front001.jpg',
+          back: 'spain_back001.jpg',
         },
       },
     ],
   },
 
-  {
-    name: 'Taiwan',
-    code: 'tw',
-    capital: 'Taipei',
-    population: '23,550,077',
-    path: '/taiwan',
+  { // Thailand
+    name: 'Thailand',
+    code: 'th',
+    capital: 'Bangkok',
+    population: '67,959,000',
+    path: '/thailand',
     cards: [
       {
-        number: '1',
-        city: 'Keelung',
-        coord: { lat: 25.1276033, lng: 121.73918329999992 },
+        city: 'Bangkok',
+        coord: { lat: 13.756, lng: 100.502 },
+        insta: null,
+        displayBack: true,
         images: {
-          front: 'front006.jpg',
-          back: 'back006.jpg',
-        },
-      },
-    ],
-  },
-
-  {
-    name: 'Turkey',
-    code: 'tr',
-    capital: 'Ankara',
-    population: '79,814,871',
-    path: '/turkey',
-    cards: [
-      {
-        number: '1',
-        city: 'Istanbul',
-        coord: { lat: 41.0082376, lng: 28.97835889999999 },
-        images: {
-          front: 'front010.jpg',
-          back: 'back010.jpg',
+          front: 'thailand_front001.jpg',
+          back: 'thailand_back001.jpg',
         },
       },
     ],

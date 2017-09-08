@@ -1,5 +1,7 @@
-.postcard .card-number { font-size: 18px; }
-.postcard .city { margin-bottom: 10px; }
+.postcard .city {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
 
 .postcard + .postcard {
   padding-top: 15px;
@@ -14,6 +16,15 @@
 
 .postcard span + span { margin-top: 20px; }
 .postcard img { width: 100%; }
+
+.postcard .insta {
+  display: block;
+  width: 150px;
+  color: red;
+  font-size: 14px;
+}
+
+.postcard .insta:hover { text-decoration: underline; }
 
 @media (min-width: 1000px) {
   .postcard span {

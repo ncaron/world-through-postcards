@@ -10,10 +10,14 @@ export default ({country}) => {
 
     return (
       <div className="postcard" key={i}>
-        <p className="card-number">Card #{card.number}</p>
-        <p className="city">{card.city}</p>
+        <p className="city">City: {card.city}</p>
         <span><img src={cardFrontSrc} alt={cardFrontAlt} /></span>
-        <span><img src={cardBackSrc} alt={cardBackAlt} /></span>
+        { card.displayBack &&
+          <span><img src={cardBackSrc} alt={cardBackAlt} /></span>
+        }
+        { card.insta &&
+          <a className="insta" href={card.insta} target="_blank">View on Instagram</a>
+        }
       </div>
     );
   });
