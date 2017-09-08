@@ -16,26 +16,17 @@
   top: -3px;
   display: inline-block;
   vertical-align: middle;
-  width: 50px;
-  color: blue;
+  width: 35px;
+  color: red;
   font-size: 40px;
-  -webkit-animation: hue 1s infinite ease-in-out;
+  -webkit-animation: beat 1s infinite ease-in-out;
+  animation: beat 1s infinite ease-in-out;
 }
 
-@keyframes hue {
-  0% {
-    filter: hue-rotate(0deg);
-    transform: scale(0);
-  }
-
-  50% {
-    transform: scale(2);
-  }
-
-  100% {
-    filter: hue-rotate(360deg);
-    transform: scale(0);
-  }
+@keyframes beat {
+  0% { transform: scale(0); }
+  50% { transform: scale(1); }
+  100% { transform: scale(0); }
 }
 
 .footer .fa {
