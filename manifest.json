@@ -44,7 +44,7 @@
      "density": "4.0"
     }
   ],
-  "start_url": "/#/world-through-postcards",
+  "start_url": "/#",
   "display": "browser",
   "theme_color": "#eeeeee",
   "background_color": "#ffffff"
