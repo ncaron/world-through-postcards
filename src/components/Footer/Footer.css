@@ -11,12 +11,8 @@
 
 .footer p { padding: 10px 0; }
 
-.footer span {
-  position: relative;
-  top: -3px;
-  display: inline-block;
+.footer .fa-heart {
   vertical-align: middle;
-  width: 35px;
   color: red;
   font-size: 40px;
   -webkit-animation: beat 1s infinite ease-in-out;
@@ -25,11 +21,13 @@
 
 @keyframes beat {
   0% { transform: scale(0); }
-  50% { transform: scale(1); }
+  50% { transform: scale(.75); }
   100% { transform: scale(0); }
 }
 
-.footer .fa {
+.footer .fa-instagram,
+.footer .fa-github,
+.footer .fa-linkedin {
   margin: 0 25px;
   font-size: 30px;
 }

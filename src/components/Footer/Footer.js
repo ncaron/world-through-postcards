@@ -4,7 +4,7 @@ import './Footer.css';
 export default () =>
   <footer className="footer">
     <p>
-      Made with <span>&hearts;</span> by
+      Made with <i className="fa fa-heart" aria-hidden="true"></i> by
       {' '}
       <a href="https://github.com/ncaron" target="_blank" rel="noopener noreferrer">Niko Caron</a>
     </p>
