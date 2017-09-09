@@ -1,11 +1,13 @@
 import React from 'react';
 import { withGoogleMap, GoogleMap, Marker } from 'react-google-maps';
+import MapStyles from './MapStyles';
 import './Map.css';
 
 const Map = withGoogleMap((props) => (
   <GoogleMap
     defaultZoom={2}
     defaultCenter={{ lat: 52.517626, lng: 13.413054 }}
+    defaultOptions={{ styles: MapStyles }}
   >
   {props.markers.map((marker) => (
       <Marker
