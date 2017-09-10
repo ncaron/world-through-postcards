@@ -5,7 +5,7 @@ import './Map.css';
 
 const Map = withGoogleMap((props) => (
   <GoogleMap
-    defaultZoom={2}
+    defaultZoom={3}
     defaultCenter={{ lat: 52.517626, lng: 13.413054 }}
     defaultOptions={{ styles: MapStyles }}
   >
