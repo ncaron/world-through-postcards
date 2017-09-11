@@ -8,7 +8,7 @@ export default ({country}) => {
 
   return (
     <NavLink to={country.path} className="country">
-      <h2>{country.name}</h2>
+      <h2>{country.name} ({country.cards.length})</h2>
       <img src={flagSrc} alt={flagAlt} className="flag" />
     </NavLink>
   );
