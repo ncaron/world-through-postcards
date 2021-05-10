@@ -16,7 +16,7 @@ export default ({country}) => {
           <span><img src={cardBackSrc} alt={cardBackAlt} /></span>
         }
         { card.insta &&
-          <a className="insta" href={card.insta} target="_blank">View on Instagram</a>
+          <a className="insta" href={card.insta} target="_blank" rel="noopener noreferrer">View on Instagram</a>
         }
       </div>
     );
