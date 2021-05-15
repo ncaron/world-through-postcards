@@ -5,6 +5,7 @@ import About from '../about';
 import CountryPage from '../countryPage';
 import Home from '../home';
 import NotFound from '../notFound';
+import Radio from '../radio';
 import Trade from '../trade';
 import {Container} from './styles';
 
@@ -29,6 +30,7 @@ const Routes = (props: RoutesProps) => {
       <Switch>
         <Route exact path='/' render={() => <Home data={data} />} />
         <Route path='/trade' component={Trade} />
+        <Route path='/radio' component={Radio} />
         <Route path='/about' render={() => <About data={data} />} />
         {countryRoutes}
         <Route component={NotFound} />

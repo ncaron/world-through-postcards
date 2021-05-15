@@ -12,6 +12,10 @@ const Navigation = () => (
         Trade
       </Link>
 
+      <Link activeClassName='active' to='/radio'>
+        Radio
+      </Link>
+
       <Link activeClassName='active' to='/about'>
         About
       </Link>

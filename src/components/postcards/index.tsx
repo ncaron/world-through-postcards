@@ -15,7 +15,7 @@ import {
   ViewMap
 } from './styles';
 
-interface Modal {
+interface ModalProps {
   card: Card;
 }
 
@@ -24,7 +24,7 @@ interface PostcardsProps {
 }
 
 const Postcards = (props: PostcardsProps) => {
-  const [modal, setModal] = useState<Modal | null>(null);
+  const [modal, setModal] = useState<ModalProps | null>(null);
   const {country} = props;
 
   function closeModal() {
