@@ -1,21 +1,43 @@
-import React from 'react';
-import {Country as CountryType} from '../../assets/data';
+import React, {useState} from 'react';
+import {Card, Country as CountryType} from '../../assets/data';
+import ModalMap from '../modalMap';
 import {
   CardContainer,
+  CardHeader,
   City,
+  Close,
   Container,
   Image,
   ImageContainer,
   ImagesContainer,
-  Link
+  Link,
+  Modal,
+  ViewMap
 } from './styles';
+
+interface Modal {
+  card: Card;
+}
 
 interface PostcardsProps {
   country: CountryType;
 }
 
 const Postcards = (props: PostcardsProps) => {
+  const [modal, setModal] = useState<Modal | null>(null);
   const {country} = props;
+
+  function closeModal() {
+    setModal(null);
+  }
+
+  function openModal(card: Card) {
+    closeModal();
+    setModal({
+      card
+    });
+  }
+
   const cards = country.cards.map((card, index) => {
     const back = {
       alt: `${country.name} card back ${index}`,
@@ -28,7 +50,15 @@ const Postcards = (props: PostcardsProps) => {
 
     return (
       <CardContainer key={index}>
-        <City>City: {card.city}</City>
+        <CardHeader>
+          <City>City: {card.city}</City>
+
+          {!modal && (
+            <ViewMap onClick={() => openModal(card)} role='button'>
+              View on Map
+            </ViewMap>
+          )}
+        </CardHeader>
 
         <ImagesContainer>
           <ImageContainer>
@@ -56,7 +86,19 @@ const Postcards = (props: PostcardsProps) => {
     );
   });
 
-  return <Container>{cards}</Container>;
+  return (
+    <Container>
+      {cards}
+
+      {modal && (
+        <Modal>
+          <Close onClick={closeModal} role='button' />
+
+          <ModalMap data={modal.card}></ModalMap>
+        </Modal>
+      )}
+    </Container>
+  );
 };
 
 export default Postcards;

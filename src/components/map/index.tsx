@@ -12,7 +12,7 @@ const Map = (props: MapProps) => {
   const {data} = props;
 
   useEffect(() => {
-    const map = L.map('map').setView([52.517626, 13.413054], 3);
+    const map = L.map('mainMap').setView([52.517626, 13.413054], 3);
     const defaultMarker = L.icon({
       iconUrl: marker,
       // half width and full height of marker
@@ -33,7 +33,7 @@ const Map = (props: MapProps) => {
     });
   }, [data]);
 
-  return <Container id='map' />;
+  return <Container id='mainMap' />;
 };
 
 export default Map;
