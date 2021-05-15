@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/world-through-postcards/static/css/main.288f2f20.chunk.css",
-    "main.js": "/world-through-postcards/static/js/main.080a4c39.chunk.js",
-    "main.js.map": "/world-through-postcards/static/js/main.080a4c39.chunk.js.map",
+    "main.js": "/world-through-postcards/static/js/main.d797bc4d.chunk.js",
+    "main.js.map": "/world-through-postcards/static/js/main.d797bc4d.chunk.js.map",
     "runtime-main.js": "/world-through-postcards/static/js/runtime-main.c8507543.js",
     "runtime-main.js.map": "/world-through-postcards/static/js/runtime-main.c8507543.js.map",
     "static/css/2.7642d304.chunk.css": "/world-through-postcards/static/css/2.7642d304.chunk.css",
-    "static/js/2.3057c8af.chunk.js": "/world-through-postcards/static/js/2.3057c8af.chunk.js",
-    "static/js/2.3057c8af.chunk.js.map": "/world-through-postcards/static/js/2.3057c8af.chunk.js.map",
+    "static/js/2.7ddfc912.chunk.js": "/world-through-postcards/static/js/2.7ddfc912.chunk.js",
+    "static/js/2.7ddfc912.chunk.js.map": "/world-through-postcards/static/js/2.7ddfc912.chunk.js.map",
     "index.html": "/world-through-postcards/index.html",
     "static/css/2.7642d304.chunk.css.map": "/world-through-postcards/static/css/2.7642d304.chunk.css.map",
     "static/css/main.288f2f20.chunk.css.map": "/world-through-postcards/static/css/main.288f2f20.chunk.css.map",
-    "static/js/2.3057c8af.chunk.js.LICENSE.txt": "/world-through-postcards/static/js/2.3057c8af.chunk.js.LICENSE.txt",
+    "static/js/2.7ddfc912.chunk.js.LICENSE.txt": "/world-through-postcards/static/js/2.7ddfc912.chunk.js.LICENSE.txt",
     "static/media/Postcard300.jpg": "/world-through-postcards/static/media/Postcard300.3677bb07.jpg",
     "static/media/Postcard301.jpg": "/world-through-postcards/static/media/Postcard301.e691b233.jpg",
     "static/media/ad.svg": "/world-through-postcards/static/media/ad.45026b92.svg",
@@ -906,8 +906,8 @@
   "entrypoints": [
     "static/js/runtime-main.c8507543.js",
     "static/css/2.7642d304.chunk.css",
-    "static/js/2.3057c8af.chunk.js",
+    "static/js/2.7ddfc912.chunk.js",
     "static/css/main.288f2f20.chunk.css",
-    "static/js/main.080a4c39.chunk.js"
+    "static/js/main.d797bc4d.chunk.js"
   ]
 }
