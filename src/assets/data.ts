@@ -403,6 +403,16 @@ export const data: Country[] = [
     path: '/belarus',
     cards: [
       {
+        city: 'Masty',
+        coord: {lat: 53.407, lng: 24.536},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'belarus_front008.jpg',
+          back: 'belarus_back008.jpg'
+        }
+      },
+      {
         city: 'Asipovichy',
         coord: {lat: 53.305, lng: 28.636},
         insta: null,
@@ -470,6 +480,27 @@ export const data: Country[] = [
         images: {
           front: 'belarus_front001.jpg',
           back: 'belarus_back001.jpg'
+        }
+      }
+    ]
+  },
+
+  {
+    // Belgium
+    name: 'Belgium',
+    code: 'be',
+    capital: 'Brussels',
+    population: '11,492,641',
+    path: '/belgium',
+    cards: [
+      {
+        city: 'Veldegem',
+        coord: {lat: 51.104, lng: 3.16},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'belgium_front001.jpg',
+          back: 'belgium_back001.jpg'
         }
       }
     ]
@@ -585,6 +616,16 @@ export const data: Country[] = [
     population: '1,373,541,278',
     path: '/china',
     cards: [
+      {
+        city: 'Shanghai',
+        coord: {lat: 31.23, lng: 121.474},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'china_front015.jpg',
+          back: 'china_back015.jpg'
+        }
+      },
       {
         city: 'Changping',
         coord: {lat: 40.221, lng: 116.231},
@@ -819,6 +860,26 @@ export const data: Country[] = [
     population: '54,786,300',
     path: '/england',
     cards: [
+      {
+        city: 'Welwyn Garden City',
+        coord: {lat: 51.802, lng: -0.207},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'england_front007.jpg',
+          back: 'england_back007.jpg'
+        }
+      },
+      {
+        city: 'Swindon',
+        coord: {lat: 51.556, lng: -1.778},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'england_front006.jpg',
+          back: 'england_back006.jpg'
+        }
+      },
       {
         city: 'Chesterfield',
         coord: {lat: 53.235, lng: -1.422},
@@ -1113,6 +1174,16 @@ export const data: Country[] = [
     path: '/france',
     cards: [
       {
+        city: 'Ternay',
+        coord: {lat: 45.602, lng: 4.807},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'france_front005.jpg',
+          back: 'france_back005.jpg'
+        }
+      },
+      {
         city: 'Rouen',
         coord: {lat: 49.443, lng: 1.1},
         insta: null,
@@ -1325,6 +1396,16 @@ export const data: Country[] = [
     population: '7,374,900',
     path: '/hongkong',
     cards: [
+      {
+        city: 'Hong Kong',
+        coord: {lat: 22.28, lng: 114.159},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'hongkong_front003.jpg',
+          back: 'hongkong_back003.jpg'
+        }
+      },
       {
         city: 'Hong Kong',
         coord: {lat: 22.28, lng: 114.159},
@@ -1554,6 +1635,36 @@ export const data: Country[] = [
     path: '/japan',
     cards: [
       {
+        city: 'Yokohama',
+        coord: {lat: 35.463, lng: 139.639},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'japan_front014.jpg',
+          back: 'japan_back014.jpg'
+        }
+      },
+      {
+        city: 'Toyota',
+        coord: {lat: 35.117, lng: 137.149},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'japan_front013.jpg',
+          back: 'japan_back013.jpg'
+        }
+      },
+      {
+        city: 'Hiroshima',
+        coord: {lat: 34.402, lng: 132.458},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'japan_front012.jpg',
+          back: 'japan_back012.jpg'
+        }
+      },
+      {
         city: 'Tobata',
         coord: {lat: 33.904, lng: 130.836},
         insta: null,
@@ -1696,6 +1807,16 @@ export const data: Country[] = [
     path: '/malaysia',
     cards: [
       {
+        city: 'Jitra',
+        coord: {lat: 6.265, lng: 100.421},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'malaysia_front003.jpg',
+          back: 'malaysia_back003.jpg'
+        }
+      },
+      {
         city: 'Shah Alam',
         coord: {lat: 3.073, lng: 101.518},
         insta: null,
@@ -1726,6 +1847,36 @@ export const data: Country[] = [
     population: '17,116,281',
     path: '/netherlands',
     cards: [
+      {
+        city: 'Leeuwarden',
+        coord: {lat: 52.201, lng: 5.799},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'netherlands_front021.jpg',
+          back: 'netherlands_back021.jpg'
+        }
+      },
+      {
+        city: 'Bergen ann Zee',
+        coord: {lat: 52.661, lng: 4.63},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'netherlands_front020.jpg',
+          back: 'netherlands_back020.jpg'
+        }
+      },
+      {
+        city: 'Delft',
+        coord: {lat: 52.012, lng: 4.358},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'netherlands_front019.jpg',
+          back: 'netherlands_back019.jpg'
+        }
+      },
       {
         city: 'Amsterdam',
         coord: {lat: 52.37, lng: 4.895},
@@ -2181,6 +2332,16 @@ export const data: Country[] = [
     path: '/portugal',
     cards: [
       {
+        city: 'Aveiro',
+        coord: {lat: 40.64, lng: -8.654},
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'portugal_front003.jpg',
+          back: 'portugal_back003.jpg'
+        }
+      },
+      {
         city: 'Vila Nova de Gaia',
         coord: {lat: 41.124, lng: -8.612},
         insta: null,
@@ -2232,6 +2393,36 @@ export const data: Country[] = [
     population: '144,463,451',
     path: '/russia',
     cards: [
+      {
+        city: 'Moscow',
+        coord: {lat: 55.756, lng: 37.617},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'russia_front048.jpg',
+          back: 'russia_back048.jpg'
+        }
+      },
+      {
+        city: 'Penza',
+        coord: {lat: 53.228, lng: 44.994},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'russia_front047.jpg',
+          back: 'russia_back047.jpg'
+        }
+      },
+      {
+        city: 'Kursk',
+        coord: {lat: 51.75, lng: 36.194},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'russia_front046.jpg',
+          back: 'russia_back046.jpg'
+        }
+      },
       {
         city: 'Oryol',
         coord: {lat: 52.967, lng: 36.062},
@@ -2776,6 +2967,56 @@ export const data: Country[] = [
     path: '/spain',
     cards: [
       {
+        city: 'Ibiza',
+        coord: {lat: 38.907, lng: 1.42},
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'spain_front006.jpg',
+          back: 'spain_back006.jpg'
+        }
+      },
+      {
+        city: 'Ibiza',
+        coord: {lat: 38.907, lng: 1.42},
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'spain_front005.jpg',
+          back: 'spain_back005.jpg'
+        }
+      },
+      {
+        city: 'Ibiza',
+        coord: {lat: 38.907, lng: 1.42},
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'spain_front004.jpg',
+          back: 'spain_back004.jpg'
+        }
+      },
+      {
+        city: 'Ibiza',
+        coord: {lat: 38.907, lng: 1.42},
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'spain_front003.jpg',
+          back: 'spain_back003.jpg'
+        }
+      },
+      {
+        city: 'Tarragona',
+        coord: {lat: 41.119, lng: 1.245},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'spain_front002.jpg',
+          back: 'spain_back002.jpg'
+        }
+      },
+      {
         city: 'Oviedo',
         coord: {lat: 43.362, lng: -5.849},
         insta: null,
@@ -2828,6 +3069,26 @@ export const data: Country[] = [
     path: '/switzerland',
     cards: [
       {
+        city: 'Härkingen',
+        coord: {lat: 47.307, lng: 7.82},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'switzerland_front004.jpg',
+          back: 'switzerland_back004.jpg'
+        }
+      },
+      {
+        city: 'Marly',
+        coord: {lat: 46.778, lng: 7.156},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'switzerland_front003.jpg',
+          back: 'switzerland_back003.jpg'
+        }
+      },
+      {
         city: 'Freienbach',
         coord: {lat: 47.202, lng: 8.791},
         insta: null,
@@ -2858,6 +3119,16 @@ export const data: Country[] = [
     population: '23,550,077',
     path: '/taiwan',
     cards: [
+      {
+        city: 'Hsinchu',
+        coord: {lat: 24.806, lng: 120.97},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'taiwan_front009.jpg',
+          back: 'taiwan_back009.jpg'
+        }
+      },
       {
         city: 'Tainan',
         coord: {lat: 23, lng: 120.227},
@@ -3062,6 +3333,46 @@ export const data: Country[] = [
     population: '323,127,513',
     path: '/usa',
     cards: [
+      {
+        city: 'Aiken, SC',
+        coord: {lat: 33.56, lng: -81.72},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'usa_front061.jpg',
+          back: 'usa_back061.jpg'
+        }
+      },
+      {
+        city: 'Chicago, IL',
+        coord: {lat: 41.882, lng: -87.63},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'usa_front060.jpg',
+          back: 'usa_back060.jpg'
+        }
+      },
+      {
+        city: 'Portsmouth, VA',
+        coord: {lat: 36.835, lng: -76.29},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'usa_front059.jpg',
+          back: 'usa_back059.jpg'
+        }
+      },
+      {
+        city: 'Brandon, FL',
+        coord: {lat: 27.939, lng: -82.284},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'usa_front058.jpg',
+          back: 'usa_back058.jpg'
+        }
+      },
       {
         city: 'Marshall, TX',
         coord: {lat: 32.545, lng: -94.367},
