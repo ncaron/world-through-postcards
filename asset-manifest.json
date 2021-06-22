@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/world-through-postcards/static/css/main.288f2f20.chunk.css",
-    "main.js": "/world-through-postcards/static/js/main.99666e20.chunk.js",
-    "main.js.map": "/world-through-postcards/static/js/main.99666e20.chunk.js.map",
+    "main.js": "/world-through-postcards/static/js/main.c93c806a.chunk.js",
+    "main.js.map": "/world-through-postcards/static/js/main.c93c806a.chunk.js.map",
     "runtime-main.js": "/world-through-postcards/static/js/runtime-main.1629d7dd.js",
     "runtime-main.js.map": "/world-through-postcards/static/js/runtime-main.1629d7dd.js.map",
     "static/css/2.7642d304.chunk.css": "/world-through-postcards/static/css/2.7642d304.chunk.css",
-    "static/js/2.e0cb6bfa.chunk.js": "/world-through-postcards/static/js/2.e0cb6bfa.chunk.js",
-    "static/js/2.e0cb6bfa.chunk.js.map": "/world-through-postcards/static/js/2.e0cb6bfa.chunk.js.map",
+    "static/js/2.e62bb25d.chunk.js": "/world-through-postcards/static/js/2.e62bb25d.chunk.js",
+    "static/js/2.e62bb25d.chunk.js.map": "/world-through-postcards/static/js/2.e62bb25d.chunk.js.map",
     "index.html": "/world-through-postcards/index.html",
     "static/css/2.7642d304.chunk.css.map": "/world-through-postcards/static/css/2.7642d304.chunk.css.map",
     "static/css/main.288f2f20.chunk.css.map": "/world-through-postcards/static/css/main.288f2f20.chunk.css.map",
-    "static/js/2.e0cb6bfa.chunk.js.LICENSE.txt": "/world-through-postcards/static/js/2.e0cb6bfa.chunk.js.LICENSE.txt",
+    "static/js/2.e62bb25d.chunk.js.LICENSE.txt": "/world-through-postcards/static/js/2.e62bb25d.chunk.js.LICENSE.txt",
     "static/media/ad.svg": "/world-through-postcards/static/media/ad.45026b92.svg",
     "static/media/flag-icon.min.css": "/world-through-postcards/static/media/zw.2840e62a.svg",
     "static/media/ae.svg": "/world-through-postcards/static/media/ae.2c530f64.svg",
@@ -20,7 +20,9 @@
     "static/media/ai.svg": "/world-through-postcards/static/media/ai.c4699001.svg",
     "static/media/al.svg": "/world-through-postcards/static/media/al.3dd8853b.svg",
     "static/media/algeria_back001.jpg": "/world-through-postcards/static/media/algeria_back001.fa61872c.jpg",
+    "static/media/algeria_back002.jpg": "/world-through-postcards/static/media/algeria_back002.fbef8872.jpg",
     "static/media/algeria_front001.jpg": "/world-through-postcards/static/media/algeria_front001.6ad1bf3f.jpg",
+    "static/media/algeria_front002.jpg": "/world-through-postcards/static/media/algeria_front002.b1644f3b.jpg",
     "static/media/am.svg": "/world-through-postcards/static/media/am.e935f821.svg",
     "static/media/ao.svg": "/world-through-postcards/static/media/ao.ad6f3c8c.svg",
     "static/media/aq.svg": "/world-through-postcards/static/media/aq.e3fbc5d0.svg",
@@ -759,10 +761,12 @@
     "static/media/switzerland_back002.jpg": "/world-through-postcards/static/media/switzerland_back002.c484f34a.jpg",
     "static/media/switzerland_back003.jpg": "/world-through-postcards/static/media/switzerland_back003.d4309435.jpg",
     "static/media/switzerland_back004.jpg": "/world-through-postcards/static/media/switzerland_back004.a9d4e50b.jpg",
+    "static/media/switzerland_back005.jpg": "/world-through-postcards/static/media/switzerland_back005.ac292922.jpg",
     "static/media/switzerland_front001.jpg": "/world-through-postcards/static/media/switzerland_front001.034ae3d7.jpg",
     "static/media/switzerland_front002.jpg": "/world-through-postcards/static/media/switzerland_front002.a467dba2.jpg",
     "static/media/switzerland_front003.jpg": "/world-through-postcards/static/media/switzerland_front003.2967f20d.jpg",
     "static/media/switzerland_front004.jpg": "/world-through-postcards/static/media/switzerland_front004.c31034c0.jpg",
+    "static/media/switzerland_front005.jpg": "/world-through-postcards/static/media/switzerland_front005.9d2975a9.jpg",
     "static/media/sx.svg": "/world-through-postcards/static/media/sx.aafb13f6.svg",
     "static/media/sy.svg": "/world-through-postcards/static/media/sy.6529aa17.svg",
     "static/media/sz.svg": "/world-through-postcards/static/media/sz.d62f5eab.svg",
@@ -964,8 +968,8 @@
   "entrypoints": [
     "static/js/runtime-main.1629d7dd.js",
     "static/css/2.7642d304.chunk.css",
-    "static/js/2.e0cb6bfa.chunk.js",
+    "static/js/2.e62bb25d.chunk.js",
     "static/css/main.288f2f20.chunk.css",
-    "static/js/main.99666e20.chunk.js"
+    "static/js/main.c93c806a.chunk.js"
   ]
 }
