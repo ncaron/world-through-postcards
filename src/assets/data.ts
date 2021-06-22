@@ -31,6 +31,16 @@ export const data: Country[] = [
     path: '/algeria',
     cards: [
       {
+        city: 'Algier',
+        coord: {lat: 36.74, lng: 3.094},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'algeria_front002.jpg',
+          back: 'algeria_back002.jpg'
+        }
+      },
+      {
         city: 'Annaba',
         coord: {lat: 36.926, lng: 7.753},
         insta: 'https://www.instagram.com/p/BL7_yaPhlrZ/',
@@ -3068,6 +3078,16 @@ export const data: Country[] = [
     population: '8,401,120',
     path: '/switzerland',
     cards: [
+      {
+        city: 'Stäfa',
+        coord: {lat: 47.239, lng: 8.736},
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'switzerland_front005.jpg',
+          back: 'switzerland_back005.jpg'
+        }
+      },
       {
         city: 'Härkingen',
         coord: {lat: 47.307, lng: 7.82},
