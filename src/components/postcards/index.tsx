@@ -41,11 +41,13 @@ const Postcards = (props: PostcardsProps) => {
   const cards = country.cards.map((card, index) => {
     const back = {
       alt: `${country.name} card back ${index}`,
-      src: require(`../../assets/cards/back/${card.images.back}`).default
+      src: require(`../../assets/compressedCards/back/${card.images.back}`)
+        .default
     };
     const front = {
       alt: `${country.name} card front ${index}`,
-      src: require(`../../assets/cards/front/${card.images.front}`).default
+      src: require(`../../assets/compressedCards/front/${card.images.front}`)
+        .default
     };
 
     return (
