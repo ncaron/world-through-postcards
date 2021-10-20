@@ -1,0 +1,43 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 45%;
+  margin: 10px 2%;
+  padding: 5px;
+  color: black;
+
+  &:hover {
+    h2 {
+      background-color: #eee;
+      font-weight: bold;
+    }
+  }
+
+  @media (min-width: 768px) {
+    width: 29%;
+  }
+
+  @media (min-width: 1200px) {
+    width: 21%;
+  }
+}
+
+.flag {
+  border-radius: 4px;
+}
+
+.flagContainer {
+  width: 100%;
+  margin: 15px 0;
+}
+
+.title {
+  border-bottom: 1px solid #ddd;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
