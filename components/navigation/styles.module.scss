@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex: 1;
+  border-left: 1px solid black;
+
+  @media (min-width: 768px) {
+    flex-direction: column;
+    margin-left: 0;
+    border-left: none;
+  }
+}
+
+.link {
+  color: black;
+  text-align: center;
+  flex: 1;
+  line-height: 30px;
+  padding: 0 16px;
+
+  & + & {
+    border-top: 1px solid black;
+  }
+
+  &:hover {
+    background-color: #f7f7f7;
+  }
+
+  &.active {
+    font-weight: bold;
+    background-color: #eee;
+  }
+
+  @media (min-width: 768px) {
+    line-height: 50px;
+
+    & + & {
+      border-top: none;
+      border-left: 1px solid black;
+    }
+  }
+}
+
+.links {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,35 @@
+.builtWithContainer {
+  width: 200px;
+  margin: 50px auto;
+}
+
+.builtWithList {
+  margin-left: 40px;
+  list-style-type: disc;
+}
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  text-align: justify;
+  gap: 16px;
+
+  @media (min-width: 768px) {
+    width: 75%;
+    margin: 0 auto 50px auto;
+  }
+
+  @media (min-width: 1000px) {
+    width: 50%;
+  }
+}
+
+.item {
+  padding: 7px 0;
+}
+
+.link {
+  color: red;
+  text-decoration: underline;
+}
