@@ -1435,7 +1435,7 @@ export const data: { [key: string]: Country } = {
         city: 'Keflavík',
         coord: { lat: 64, lng: -22.558 },
         insta: null,
-        displayBack: false,
+        displayBack: true,
         images: {
           front: 'iceland_front003.jpg',
           back: 'iceland_back003.jpg',
@@ -1445,7 +1445,7 @@ export const data: { [key: string]: Country } = {
         city: 'Keflavík',
         coord: { lat: 64, lng: -22.558 },
         insta: null,
-        displayBack: false,
+        displayBack: true,
         images: {
           front: 'iceland_front002.jpg',
           back: 'iceland_back002.jpg',
@@ -1455,7 +1455,7 @@ export const data: { [key: string]: Country } = {
         city: 'Keflavík',
         coord: { lat: 64, lng: -22.558 },
         insta: null,
-        displayBack: false,
+        displayBack: true,
         images: {
           front: 'iceland_front001.jpg',
           back: 'iceland_back001.jpg',
