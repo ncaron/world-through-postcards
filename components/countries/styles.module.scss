@@ -1,5 +1,7 @@
 .container {
   justify-content: center;
+  max-width: 1250px;
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
 }

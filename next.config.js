@@ -1,4 +1,6 @@
+const { withPlaiceholder } = require('@plaiceholder/next');
+
 /** @type {import('next').NextConfig} */
-module.exports = {
+module.exports = withPlaiceholder({
   reactStrictMode: true,
-};
+});
