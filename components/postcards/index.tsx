@@ -67,6 +67,7 @@ const Postcards = ({ country }: CountryProps) => {
                 src={back.src}
                 layout='responsive'
                 placeholder='blur'
+                quality='25'
               />
             </div>
           )}
