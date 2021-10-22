@@ -408,6 +408,16 @@ export const data: { [key: string]: Country } = {
     population: '9,498,700',
     cards: [
       {
+        city: 'Grodno',
+        coord: { lat: 53.668, lng: 23.821 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'belarus_front009.jpg',
+          back: 'belarus_back009.jpg',
+        },
+      },
+      {
         city: 'Masty',
         coord: { lat: 53.407, lng: 24.536 },
         insta: null,
@@ -988,6 +998,16 @@ export const data: { [key: string]: Country } = {
     population: '5,506,312',
     cards: [
       {
+        city: 'Joensuu',
+        coord: { lat: 62.601, lng: 29.764 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'finland_front017.jpg',
+          back: 'finland_back017.jpg',
+        },
+      },
+      {
         city: 'Huittinen',
         coord: { lat: 61.176, lng: 22.698 },
         insta: null,
@@ -1355,6 +1375,26 @@ export const data: { [key: string]: Country } = {
     population: '10,955,000',
     cards: [
       {
+        city: 'Athens',
+        coord: { lat: 37.991, lng: 23.703 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'greece_front003.jpg',
+          back: 'greece_back003.jpg',
+        },
+      },
+      {
+        city: 'Athens',
+        coord: { lat: 37.991, lng: 23.703 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'greece_front002.jpg',
+          back: 'greece_back002.jpg',
+        },
+      },
+      {
         city: 'Polygyros',
         coord: { lat: 40.382, lng: 23.443 },
         insta: 'https://www.instagram.com/p/BXwIRSWD1fp/',
@@ -1596,6 +1636,16 @@ export const data: { [key: string]: Country } = {
     population: '126,740,000',
     cards: [
       {
+        city: 'Nakatsu',
+        coord: { lat: 33.569, lng: 131.202 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'japan_front015.jpg',
+          back: 'japan_back015.jpg',
+        },
+      },
+      {
         city: 'Yokohama',
         coord: { lat: 35.463, lng: 139.639 },
         insta: null,
@@ -1802,6 +1852,16 @@ export const data: { [key: string]: Country } = {
     id: 'netherlands',
     population: '17,116,281',
     cards: [
+      {
+        city: 'Haarlo',
+        coord: { lat: 52.112, lng: 6.582 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'netherlands_front022.jpg',
+          back: 'netherlands_back022.jpg',
+        },
+      },
       {
         city: 'Leeuwarden',
         coord: { lat: 52.201, lng: 5.799 },
@@ -2336,6 +2396,16 @@ export const data: { [key: string]: Country } = {
     id: 'russia',
     population: '144,463,451',
     cards: [
+      {
+        city: 'Vidnoe',
+        coord: { lat: 55.552, lng: 37.706 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'russia_front049.jpg',
+          back: 'russia_back049.jpg',
+        },
+      },
       {
         city: 'Moscow',
         coord: { lat: 55.756, lng: 37.617 },
@@ -3266,6 +3336,26 @@ export const data: { [key: string]: Country } = {
     id: 'usa',
     population: '323,127,513',
     cards: [
+      {
+        city: 'Stow, OH',
+        coord: { lat: 41.159, lng: -81.44 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'usa_front063.jpg',
+          back: 'usa_back063.jpg',
+        },
+      },
+      {
+        city: 'Bothell, WA',
+        coord: { lat: 47.76, lng: -122.208 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'usa_front062.jpg',
+          back: 'usa_back062.jpg',
+        },
+      },
       {
         city: 'Aiken, SC',
         coord: { lat: 33.56, lng: -81.72 },
