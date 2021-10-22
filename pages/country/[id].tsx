@@ -1,12 +1,24 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from 'next';
+import { getPlaiceholder } from 'plaiceholder';
 import React from 'react';
 import CountryHeader from '../../components/countryHeader';
 import Layout from '../../components/layout';
 import Postcards from '../../components/postcards';
-import type { Country as CountryType } from '../../lib/data';
+import type { Card, Country as CountryType } from '../../lib/data';
+import { BlurImage } from '../../lib/types';
 
-interface CountryProps {
-  country: CountryType;
+interface CardWithImages extends Omit<Card, 'images'> {
+  images: {
+    back: BlurImage;
+    front: BlurImage;
+  };
+}
+interface CountryWithImages extends Omit<CountryType, 'cards'> {
+  cards: CardWithImages[];
+}
+
+export interface CountryProps {
+  country: CountryWithImages;
 }
 
 const Country: NextPage<CountryProps> = ({ country }) => {
@@ -33,10 +45,38 @@ export const getStaticProps: GetStaticProps<CountryProps> = async ({
   params,
 }) => {
   const countries = (await import('../../lib/data')).data;
+  const country = countries[params?.id as string];
+  const cards = await Promise.all(
+    country.cards.map(async (card) => {
+      const { blurhash: blurhashFront, img: imgFront } = await getPlaiceholder(
+        `/images/front/${card.images.front}`
+      );
+      const { blurhash: blurhashBack, img: imgBack } = await getPlaiceholder(
+        `/images/back/${card.images.back}`
+      );
+
+      return {
+        ...card,
+        images: {
+          back: {
+            blurhash: blurhashBack,
+            img: imgBack,
+          },
+          front: {
+            blurhash: blurhashFront,
+            img: imgFront,
+          },
+        },
+      };
+    })
+  ).then((values) => values);
 
   return {
     props: {
-      country: countries[params?.id as string],
+      country: {
+        ...country,
+        cards,
+      },
     },
   };
 };

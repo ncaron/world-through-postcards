@@ -1,5 +1,5 @@
-import styles from './styles.module.scss';
 import CountryFlag from '../countryFlag';
+import styles from './styles.module.scss';
 
 export interface CountryProps {
   code: string;

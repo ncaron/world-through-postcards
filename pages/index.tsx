@@ -11,7 +11,7 @@ const Home: NextPage<HomeProps> = ({ countries }) => {
   return <Layout title='Home'>{<Countries countries={countries} />}</Layout>;
 };
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const countries = (await import('../lib/data')).data;
 
   return {

@@ -1,3 +1,15 @@
+.blur {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  // Some images have a blur effect for a few pixels.
+  // A better solution might be needed.
+  height: calc(100% - 6px);
+}
+
 .cardContainer {
   & + & {
     border-top: 1px solid black;
@@ -50,7 +62,14 @@
 }
 
 .imageContainer {
-  flex: 1;
+  position: relative;
+  flex: 0.5 1 auto;
+  height: max-content;
+  max-width: max-content;
+}
+
+.imageContainerSingle {
+  flex-basis: min-content;
 }
 
 .imagesContainer {
