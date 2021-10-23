@@ -13,6 +13,7 @@ interface CardWithImages extends Omit<Card, 'images'> {
     front: BlurImage;
   };
 }
+
 interface CountryWithImages extends Omit<CountryType, 'cards'> {
   cards: CardWithImages[];
 }
