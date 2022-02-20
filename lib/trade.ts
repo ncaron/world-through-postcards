@@ -117,7 +117,7 @@ export const tradeGroups: { [key: string]: Group } = {
         image: 'womenInScience_036.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 035',
         image: 'womenInScience_035.jpg',
       },
@@ -187,27 +187,27 @@ export const tradeGroups: { [key: string]: Group } = {
         image: 'womenInScience_022.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 021',
         image: 'womenInScience_021.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 020',
         image: 'womenInScience_020.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 019',
         image: 'womenInScience_019.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 018',
         image: 'womenInScience_018.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 017',
         image: 'womenInScience_017.jpg',
       },
@@ -217,7 +217,7 @@ export const tradeGroups: { [key: string]: Group } = {
         image: 'womenInScience_016.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 015',
         image: 'womenInScience_015.jpg',
       },
@@ -237,27 +237,27 @@ export const tradeGroups: { [key: string]: Group } = {
         image: 'womenInScience_012.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 011',
         image: 'womenInScience_011.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 010',
         image: 'womenInScience_010.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 009',
         image: 'womenInScience_009.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 008',
         image: 'womenInScience_008.jpg',
       },
       {
-        available: 2,
+        available: 1,
         id: 'Women In Science 007',
         image: 'womenInScience_007.jpg',
       },
