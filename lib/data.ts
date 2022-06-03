@@ -35,6 +35,16 @@ export const data: { [key: string]: Country } = {
         insta: null,
         displayBack: true,
         images: {
+          front: 'algeria_front003.jpg',
+          back: 'algeria_back003.jpg',
+        },
+      },
+      {
+        city: 'Algier',
+        coord: { lat: 36.74, lng: 3.094 },
+        insta: null,
+        displayBack: true,
+        images: {
           front: 'algeria_front002.jpg',
           back: 'algeria_back002.jpg',
         },
