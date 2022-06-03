@@ -400,6 +400,25 @@ export const data: { [key: string]: Country } = {
       },
     ],
   },
+  austria: {
+    name: 'Austria',
+    code: 'at',
+    capital: 'Vienna',
+    id: 'austria',
+    population: '8,917,200',
+    cards: [
+      {
+        city: 'Fürstenfeld',
+        coord: { lat: 47.05, lng: 16.08 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'austria_front001.jpg',
+          back: 'austria_back001.jpg',
+        },
+      },
+    ],
+  },
   belarus: {
     name: 'Belarus',
     code: 'by',
@@ -407,6 +426,36 @@ export const data: { [key: string]: Country } = {
     id: 'belarus',
     population: '9,498,700',
     cards: [
+      {
+        city: 'Minsk',
+        coord: { lat: 53.905, lng: 27.562 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'belarus_front012.jpg',
+          back: 'belarus_back012.jpg',
+        },
+      },
+      {
+        city: 'Minsk',
+        coord: { lat: 53.905, lng: 27.562 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'belarus_front011.jpg',
+          back: 'belarus_back011.jpg',
+        },
+      },
+      {
+        city: 'Mahilyow',
+        coord: { lat: 53.909, lng: 30.343 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'belarus_front010.jpg',
+          back: 'belarus_back010.jpg',
+        },
+      },
       {
         city: 'Grodno',
         coord: { lat: 53.668, lng: 23.821 },
@@ -506,6 +555,26 @@ export const data: { [key: string]: Country } = {
     id: 'belgium',
     population: '11,492,641',
     cards: [
+      {
+        city: 'Louvain-la-Neuve',
+        coord: { lat: 50.668, lng: 4.613 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'belgium_front003.jpg',
+          back: 'belgium_back003.jpg',
+        },
+      },
+      {
+        city: 'Ledegem',
+        coord: { lat: 50.854, lng: 3.126 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'belgium_front002.jpg',
+          back: 'belgium_back002.jpg',
+        },
+      },
       {
         city: 'Veldegem',
         coord: { lat: 51.104, lng: 3.16 },
@@ -998,6 +1067,16 @@ export const data: { [key: string]: Country } = {
     population: '5,506,312',
     cards: [
       {
+        city: 'Lahti',
+        coord: { lat: 60.983, lng: 25.661 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'finland_front018.jpg',
+          back: 'finland_back018.jpg',
+        },
+      },
+      {
         city: 'Joensuu',
         coord: { lat: 62.601, lng: 29.764 },
         insta: null,
@@ -1235,6 +1314,56 @@ export const data: { [key: string]: Country } = {
     id: 'germany',
     population: '82,175,700',
     cards: [
+      {
+        city: 'Munich',
+        coord: { lat: 48.137, lng: 11.575 },
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'germany_front018.jpg',
+          back: 'germany_back018.jpg',
+        },
+      },
+      {
+        city: 'Munich',
+        coord: { lat: 48.137, lng: 11.575 },
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'germany_front017.jpg',
+          back: 'germany_back017.jpg',
+        },
+      },
+      {
+        city: 'Munich',
+        coord: { lat: 48.137, lng: 11.575 },
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'germany_front016.jpg',
+          back: 'germany_back016.jpg',
+        },
+      },
+      {
+        city: 'Munich',
+        coord: { lat: 48.137, lng: 11.575 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'germany_front015.jpg',
+          back: 'germany_back015.jpg',
+        },
+      },
+      {
+        city: 'Berlin',
+        coord: { lat: 52.52, lng: 13.405 },
+        insta: null,
+        displayBack: false,
+        images: {
+          front: 'germany_front014.jpg',
+          back: 'germany_back014.jpg',
+        },
+      },
       {
         city: 'Lörrach',
         coord: { lat: 47.617, lng: 7.671 },
@@ -1511,6 +1640,16 @@ export const data: { [key: string]: Country } = {
     population: '1,326,572,000',
     cards: [
       {
+        city: 'Margao',
+        coord: { lat: 15.273, lng: 73.958 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'india_front002.jpg',
+          back: 'india_back002.jpg',
+        },
+      },
+      {
         city: 'Bangalore',
         coord: { lat: 12.972, lng: 77.595 },
         insta: null,
@@ -1635,6 +1774,16 @@ export const data: { [key: string]: Country } = {
     id: 'japan',
     population: '126,740,000',
     cards: [
+      {
+        city: 'Takasaki',
+        coord: { lat: 36.322, lng: 139.003 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'japan_front016.jpg',
+          back: 'japan_back016.jpg',
+        },
+      },
       {
         city: 'Nakatsu',
         coord: { lat: 33.569, lng: 131.202 },
@@ -2397,6 +2546,56 @@ export const data: { [key: string]: Country } = {
     population: '144,463,451',
     cards: [
       {
+        city: 'Oryol',
+        coord: { lat: 52.967, lng: 36.062 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'russia_front054.jpg',
+          back: 'russia_back054.jpg',
+        },
+      },
+      {
+        city: 'Oryol',
+        coord: { lat: 52.967, lng: 36.062 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'russia_front053.jpg',
+          back: 'russia_back053.jpg',
+        },
+      },
+      {
+        city: 'Oryol',
+        coord: { lat: 52.967, lng: 36.062 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'russia_front052.jpg',
+          back: 'russia_back052.jpg',
+        },
+      },
+      {
+        city: 'Moscow',
+        coord: { lat: 55.756, lng: 37.617 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'russia_front051.jpg',
+          back: 'russia_back051.jpg',
+        },
+      },
+      {
+        city: 'Volgograd',
+        coord: { lat: 48.709, lng: 44.515 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'russia_front050.jpg',
+          back: 'russia_back050.jpg',
+        },
+      },
+      {
         city: 'Vidnoe',
         coord: { lat: 55.552, lng: 37.706 },
         insta: null,
@@ -2917,6 +3116,25 @@ export const data: { [key: string]: Country } = {
       },
     ],
   },
+  singapore: {
+    name: 'Singapore',
+    code: 'sg',
+    capital: 'Singapore',
+    id: 'singapore',
+    population: '5,685,807',
+    cards: [
+      {
+        city: 'Singapore',
+        coord: { lat: 1.29, lng: 103.852 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'singapore_front001.jpg',
+          back: 'singapore_back001.jpg',
+        },
+      },
+    ],
+  },
   slovenia: {
     name: 'Slovenia',
     code: 'si',
@@ -3131,6 +3349,16 @@ export const data: { [key: string]: Country } = {
     population: '23,550,077',
     cards: [
       {
+        city: 'Tainan',
+        coord: { lat: 23, lng: 120.227 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'taiwan_front010.jpg',
+          back: 'taiwan_back010.jpg',
+        },
+      },
+      {
         city: 'Hsinchu',
         coord: { lat: 24.806, lng: 120.97 },
         insta: null,
@@ -3336,6 +3564,16 @@ export const data: { [key: string]: Country } = {
     id: 'usa',
     population: '323,127,513',
     cards: [
+      {
+        city: 'Maryville, TN',
+        coord: { lat: 35.756, lng: -83.97 },
+        insta: null,
+        displayBack: true,
+        images: {
+          front: 'usa_front064.jpg',
+          back: 'usa_back064.jpg',
+        },
+      },
       {
         city: 'Stow, OH',
         coord: { lat: 41.159, lng: -81.44 },
