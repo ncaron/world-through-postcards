@@ -432,6 +432,16 @@ export const data: { [key: string]: Country } = {
         insta: null,
         displayBack: true,
         images: {
+          front: 'belarus_front013.jpg',
+          back: 'belarus_back013.jpg',
+        },
+      },
+      {
+        city: 'Minsk',
+        coord: { lat: 53.905, lng: 27.562 },
+        insta: null,
+        displayBack: true,
+        images: {
           front: 'belarus_front012.jpg',
           back: 'belarus_back012.jpg',
         },
